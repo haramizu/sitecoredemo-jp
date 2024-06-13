@@ -18,7 +18,7 @@ Param (
 
     [Parameter(Mandatory = $false, HelpMessage = "Specifies os version of the base image.")]
     [ValidateSet("ltsc2019", "ltsc2022")]
-    [string]$baseOs = "ltsc2019"
+    [string]$baseOs = "ltsc2022"
 )
 
 $ErrorActionPreference = "Stop";
@@ -81,7 +81,7 @@ try {
     }
     Write-Host "Generating Traefik TLS certificate..." -ForegroundColor Green
     & $mkcert -install
-    & $mkcert "*.sxastarter.localhost"
+    & $mkcert "*.tailwindcss.localhost"
     & $mkcert "xmcloudcm.localhost"
 
     # stash CAROOT path for messaging at the end of the script
@@ -102,7 +102,7 @@ finally {
 Write-Host "Adding Windows hosts file entries..." -ForegroundColor Green
 
 Add-HostsEntry "xmcloudcm.localhost"
-Add-HostsEntry "www.sxastarter.localhost"
+Add-HostsEntry "www.tailwindcss.localhost"
 
 ###############################
 # Generate scjssconfig
@@ -138,7 +138,7 @@ if ($InitEnv) {
     Set-EnvFileVariable "CM_HOST" -Value "xmcloudcm.localhost"
 
     # RENDERING_HOST
-    Set-EnvFileVariable "RENDERING_HOST" -Value "www.sxastarter.localhost"
+    Set-EnvFileVariable "RENDERING_HOST" -Value "www.tailwindcss.localhost"
 
     # REPORTING_API_KEY = random 64-128 chars
     Set-EnvFileVariable "REPORTING_API_KEY" -Value (Get-SitecoreRandomString 128 -DisallowSpecial)
