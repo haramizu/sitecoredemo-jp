@@ -104,6 +104,13 @@ Write-Host "Adding Windows hosts file entries..." -ForegroundColor Green
 Add-HostsEntry "xmcloudcm.localhost"
 Add-HostsEntry "www.tailwindcss.localhost"
 
+################################
+# Create .env file
+################################
+
+Write-Host "Create .env file." -ForegroundColor Green
+Copy-Item ".\.env.template" ".\.env" -Force
+
 ###############################
 # Generate scjssconfig
 ###############################
