@@ -1,0 +1,14 @@
+@import './app.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pages Style - Common */
+@import './common/alignment.css';
+@import './common/spacing.css';
+
+/* Components */
+@import './components/Image.css';
+@import './components/ColumnSplitter.css';
+@import './components/RichText.css';

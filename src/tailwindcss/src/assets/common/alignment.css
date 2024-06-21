@@ -1,0 +1,11 @@
+.position-left {
+  @apply text-left;
+}
+
+.position-right {
+  @apply text-right;
+}
+
+.position-center {
+  @apply text-center;
+}

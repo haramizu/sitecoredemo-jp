@@ -1,0 +1,17 @@
+.component.rich-text {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  li {
+    @apply ml-8;
+  }
+  blockquote {
+    @apply border-l-4 border-r-4 border-gray-500 my-4 mx-4;
+  }
+}

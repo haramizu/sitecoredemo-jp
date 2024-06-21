@@ -1,0 +1,9 @@
+.indent {
+  @apply mx-3;
+}
+.indent-top {
+  @apply mt-3;
+}
+.indent-bottom {
+  @apply mb-3;
+}
