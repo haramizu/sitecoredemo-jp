@@ -45,6 +45,11 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name": "projectRenderingsFeature",
+        "path": "/sitecore/layout/Renderings/Feature/Tailwindcss",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
         "name": "projectRenderings",
         "path": "/sitecore/Layout/Renderings/Project/Tailwindcss",
         "allowedPushOperations": "CreateUpdateAndDelete"
