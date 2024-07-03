@@ -35,6 +35,7 @@
     "@sitecore-feaas/clientside": "^0.5.17",
     "@sitecore-jss/sitecore-jss-nextjs": "~22.0.0",
     "@sitecore/components": "^1.1.10",
+    "feed": "^4.2.2",
     "font-awesome": "^4.7.0",
     "graphql": "~15.8.0",
     "graphql-tag": "^2.12.6",
