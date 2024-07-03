@@ -5,7 +5,7 @@
 .sitecore/package-cache/
 
 # Environment file .env
-.env
+/.env
 
 # Ephemeral index caches used by serialization, do not commit
 .scindex
@@ -81,3 +81,4 @@ packages/
 /src/rendering/src/temp/!.gitignore
 /src/rendering/src/temp/!GraphQLFragmentTypes.json
 /src/rendering/src/temp/!GraphQLIntrospectionResult.json
+.DS_Store
