@@ -82,8 +82,6 @@ export async function GET() {
         url: post.image?.jsonValue.value.src || '/next.svg',
       },
     });
-
-    console.log(post.publishDate?.value);
   });
 
   return new Response(feed.rss2(), {
