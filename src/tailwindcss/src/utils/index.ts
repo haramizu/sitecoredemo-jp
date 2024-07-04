@@ -3,8 +3,14 @@ type GraphQLResponseWithErrors = {
 };
 
 export async function fetchGraphQL(query: string): Promise<unknown> {
-  const apiKey = process.env.SITECORE_API_KEY ?? '';
-  const endpointUrl = process.env.GRAPH_QL_ENDPOINT ?? '';
+  const apiKey = process.env.SITECORE_API_KEY;
+  const endpointUrl = process.env.GRAPH_QL_ENDPOINT;
+
+  if (!apiKey || !endpointUrl) {
+    throw new Error(
+      'Please configure both SITECORE_API_KEY and GRAPH_QL_ENDPOINT with valid values.'
+    );
+  }
 
   try {
     return await fetch(endpointUrl, {
