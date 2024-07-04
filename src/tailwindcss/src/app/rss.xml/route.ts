@@ -40,55 +40,64 @@ interface AllNewsResponse {
 const baseUrl = 'https://sitecoredemo.jp';
 
 export async function GET() {
-  const posts = await getAllArticle(
-    'en',
-    'E66EE43B-398B-486E-9F7F-5FE36A4093D3',
-    'B9453B23-0E09-4D98-99C0-EAA0F16DD6DA'
-  );
-
-  const feed = new Feed({
-    title: 'Sitecoredemo.jp RSS',
-    description: 'This is RSS Feed about demo news',
-    id: baseUrl,
-    link: baseUrl,
-    copyright: `${new Date().getFullYear()} Sitecoredemo.jp`,
-    language: 'en',
-    favicon: baseUrl + 'favicon.png',
-    feedLinks: {
-      rss2: baseUrl + 'rss.xml',
-    },
-    author: {
-      name: 'Shinichi Haramizu',
-      email: 'support@sitecoredemo.jp',
-      link: baseUrl,
-    },
-  });
-
-  posts.map((post) => {
-    const publishDate = post.publishDate?.value || '20240110T00:00:00Z';
-
-    const isoDateString = publishDate.replace(
-      /(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z/,
-      '$1-$2-$3T$4:$5:$6Z'
+  try {
+    const posts = await getAllArticle(
+      'en',
+      'E66EE43B-398B-486E-9F7F-5FE36A4093D3',
+      'B9453B23-0E09-4D98-99C0-EAA0F16DD6DA'
     );
 
-    feed.addItem({
-      title: post.title?.value || 'Title',
-      id: post.id,
-      link: baseUrl + post.url?.path,
-      date: new Date(isoDateString),
-      description: post.description?.value || '',
-      image: {
-        url: post.image?.jsonValue.value.src || '/next.svg',
+    const feed = new Feed({
+      title: 'Sitecoredemo.jp RSS',
+      description: 'This is RSS Feed about demo news',
+      id: baseUrl,
+      link: baseUrl,
+      copyright: `${new Date().getFullYear()} Sitecoredemo.jp`,
+      language: 'en',
+      favicon: baseUrl + 'favicon.png',
+      feedLinks: {
+        rss2: baseUrl + 'rss.xml',
+      },
+      author: {
+        name: 'Shinichi Haramizu',
+        email: 'support@sitecoredemo.jp',
+        link: baseUrl,
       },
     });
-  });
 
-  return new Response(feed.rss2(), {
-    headers: {
-      'Content-Type': 'application/atom+xml; charset=utf-8',
-    },
-  });
+    posts.map((post) => {
+      const publishDate = post.publishDate?.value || '20240110T00:00:00Z';
+
+      const isoDateString = publishDate.replace(
+        /(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z/,
+        '$1-$2-$3T$4:$5:$6Z'
+      );
+
+      feed.addItem({
+        title: post.title?.value || 'Title',
+        id: post.id,
+        link: baseUrl + post.url?.path,
+        date: new Date(isoDateString),
+        description: post.description?.value || '',
+        image: {
+          url: post.image?.jsonValue.value.src || '/next.svg',
+        },
+      });
+    });
+
+    return new Response(feed.rss2(), {
+      headers: {
+        'Content-Type': 'application/atom+xml; charset=utf-8',
+      },
+    });
+  } catch (error) {
+    return new Response(null, {
+      status: 302,
+      headers: {
+        Location: baseUrl,
+      },
+    });
+  }
 }
 
 async function getAllArticle(language: string, siteRootId: string, templateId: string) {
@@ -96,6 +105,7 @@ async function getAllArticle(language: string, siteRootId: string, templateId: s
     AllNewsQuery(language, siteRootId, templateId)
   )) as AllNewsResponse;
 
+  console.log('result:' + results);
   const news: Partial<News>[] = [];
 
   results.data.search.results.forEach((post: Partial<News>) => {
