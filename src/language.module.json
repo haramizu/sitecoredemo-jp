@@ -1,0 +1,19 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Language",
+  "items": {
+    "includes": [
+      {
+        "name": "SystemLanguages",
+        "path": "/sitecore/system/Languages/ja-JP",
+        "scope": "singleItem"
+      },
+      {
+        "name": "core-SystemLanguages",
+        "path": "/sitecore/system/Languages/ja-JP",
+        "scope": "singleItem",
+        "database": "core"
+      }
+    ]
+  }
+}

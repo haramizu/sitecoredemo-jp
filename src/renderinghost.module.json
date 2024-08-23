@@ -1,13 +1,18 @@
 {
-    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
-    "namespace": "RenderingHost",
-    "items": {
-        "includes": [
-            {
-                "name": "DefaultRenderingHost",
-                "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
-                "scope": "singleItem"
-            }
-        ]
-    }
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "RenderingHost",
+  "items": {
+    "includes": [
+      {
+        "name": "DefaultRenderingHost",
+        "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
+        "scope": "singleItem"
+      },
+      {
+        "name": "TailwindcssRenderingHost",
+        "path": "/sitecore/system/Settings/Services/Rendering Hosts/Tailwindcss",
+        "scope": "singleItem"
+      }
+    ]
+  }
 }
