@@ -65,6 +65,21 @@
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\items\core\localization\cmp.items.core.ja-JP.dat" />
+    <Content Include="App_Data\items\core\localization\dam.items.core.ja-JP.dat" />
+    <Content Include="App_Data\items\core\localization\items.core.ja-JP.dat" />
+    <Content Include="App_Data\items\core\localization\items.core.jss.ja-JP.dat" />
+    <Content Include="App_Data\items\core\localization\items.core.sxa.ja-JP.dat" />
+    <Content Include="App_Data\items\master\localization\cmp.items.master.ja-JP.dat" />
+    <Content Include="App_Data\items\master\localization\dam.items.master.ja-JP.dat" />
+    <Content Include="App_Data\items\master\localization\items.master.ja-JP.dat" />
+    <Content Include="App_Data\items\master\localization\items.master.jss.ja-JP.dat" />
+    <Content Include="App_Data\items\master\localization\items.master.sxa.ja-JP.dat" />
+    <Content Include="App_Data\items\web\localization\cmp.items.web.ja-JP.dat" />
+    <Content Include="App_Data\items\web\localization\dam.items.web.ja-JP.dat" />
+    <Content Include="App_Data\items\web\localization\items.web.ja-JP.dat" />
+    <Content Include="App_Data\items\web\localization\items.web.jss.ja-JP.dat" />
+    <Content Include="App_Data\items\web\localization\items.web.sxa.ja-JP.dat" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />

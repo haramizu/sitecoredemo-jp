@@ -117,6 +117,9 @@ dotnet sitecore ser push -i RenderingHost
 Write-Host "Pushing sitecore API key" -ForegroundColor Green
 & docker\build\cm\templates\import-templates.ps1 -RenderingSiteName "xmcloudpreview" -SitecoreApiKey $sitecoreApiKey
 
+Write-Host "Pushing Language configuration" -ForegroundColor Green
+dotnet sitecore ser push -i Language
+
 if ($ClientCredentialsLogin -ne "true") {
     Write-Host "Opening site..." -ForegroundColor Green
     
