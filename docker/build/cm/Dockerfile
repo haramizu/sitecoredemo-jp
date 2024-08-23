@@ -11,5 +11,8 @@ SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPref
 
 WORKDIR C:\inetpub\wwwroot
 
+# Copy Localization Files
+COPY .\App_Data \inetpub\wwwroot\App_Data
+
 # Copy developer tools and entrypoint
 COPY --from=tools C:\tools C:\tools

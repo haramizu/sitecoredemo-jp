@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitecore>
+  <phrase key="If this is unexpected, please move the item to Content Mode workflow state or protect it against overwrite using JSS Import security presets.">
+    <ja-JP>期待されない場合、アイテムをコンテンツ モード ワークフロー状態へ移動する、またはJSS インポート セキュリティ プリセットを使用して上書きされないようにしてください。</ja-JP>
+  </phrase>
+  <phrase key="The current item is allowed to be overwritten during next import.">
+    <ja-JP>現在のアイテムは次のインポートで上書きが可能です。</ja-JP>
+  </phrase>
+  <phrase key="This action will allow the item to be overwritten during next import and may result in content loss.&#xA;&#xA;Are you sure you want to allow this?">
+    <ja-JP>本アクションは次のインポートでアイテムが上書きされるのを許可するため、コンテンツが失われる可能性があります。
+
+本当に上書きを許可しますか？</ja-JP>
+  </phrase>
+</sitecore>
