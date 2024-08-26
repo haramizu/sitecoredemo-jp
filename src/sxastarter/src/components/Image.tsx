@@ -64,8 +64,6 @@ export const Banner = (props: ImageProps): JSX.Element => {
       },
     };
 
-  console.log(props.fields.Image.value.src);
-
   return (
     <div
       className={`component hero-banner ${props.params.styles} ${classHeroBannerEmpty}`}
