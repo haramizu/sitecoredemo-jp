@@ -41,6 +41,11 @@ const nextConfig = {
         port: '',
       },
       {
+        protocol: 'http',
+        hostname: 'cm',
+        port: '',
+      },
+      {
         protocol: 'https',
         hostname: 'xmc-*.**',
         port: '',

@@ -38,23 +38,33 @@ export const Banner = (props: ImageProps): JSX.Element => {
     isPageEditing && props.fields?.Image?.value?.class === 'scEmptyImage'
       ? 'hero-banner-empty'
       : '';
+
+  // background image on cm
+  const imageUrl = props?.fields?.Image?.value?.src;
+  const formattedUrl = imageUrl?.startsWith('http://cm/')
+    ? imageUrl.replace('http://cm/', '/')
+    : imageUrl;
+
   const backgroundStyle = (props?.fields?.Image?.value?.src && {
-    backgroundImage: `url('${props.fields.Image.value.src}')`,
+    backgroundImage: `url('${formattedUrl}')`,
   }) as CSSProperties;
+
   const modifyImageProps = !isMetadataMode
     ? {
-        ...props.fields.Image,
-        editable: props?.fields?.Image?.editable
-          ?.replace(`width="${props?.fields?.Image?.value?.width}"`, 'width="100%"')
-          .replace(`height="${props?.fields?.Image?.value?.height}"`, 'height="100%"'),
-      }
+      ...props.fields.Image,
+      editable: props?.fields?.Image?.editable
+        ?.replace(`width="${props?.fields?.Image?.value?.width}"`, 'width="100%"')
+        .replace(`height="${props?.fields?.Image?.value?.height}"`, 'height="100%"'),
+    }
     : {
-        ...props.fields.Image,
-        value: {
-          ...props.fields.Image.value,
-          style: { width: '100%', height: '100%' },
-        },
-      };
+      ...props.fields.Image,
+      value: {
+        ...props.fields.Image.value,
+        style: { width: '100%', height: '100%' },
+      },
+    };
+
+  console.log(props.fields.Image.value.src);
 
   return (
     <div
