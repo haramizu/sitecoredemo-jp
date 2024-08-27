@@ -120,6 +120,9 @@ Write-Host "Pushing sitecore API key" -ForegroundColor Green
 Write-Host "Pushing Language configuration" -ForegroundColor Green
 dotnet sitecore ser push -i Language
 
+Write-Host "Pushing Workflow" -ForegroundColor Green
+dotnet sitecore ser push -i Workflow
+
 if ($ClientCredentialsLogin -ne "true") {
     Write-Host "Opening site..." -ForegroundColor Green
     

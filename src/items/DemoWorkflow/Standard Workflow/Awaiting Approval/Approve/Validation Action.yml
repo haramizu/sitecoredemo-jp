@@ -1,0 +1,75 @@
+﻿---
+ID: "10c197e4-b25c-4373-8616-8373e2bbf534"
+Parent: "31c9a43b-ac39-47c3-8d0c-a77e1fcf4b31"
+Template: "419f8ffb-2713-4cec-86a7-7585a727fe25"
+Path: /sitecore/system/Workflows/Standard Workflow/Awaiting Approval/Approve/Validation Action
+SharedFields:
+- ID: "202f2a2c-6274-467f-a9c8-3ec4585a3060"
+  Hint: Critical Error
+  Value: You cannot approve an item with validation errors.
+- ID: "281ab75c-db54-4471-9675-c01fb380fb62"
+  Hint: Error
+  Value: You cannot approve an item with validation errors.
+- ID: "322164dc-27ac-404e-b7dc-b74c13cdba1e"
+  Hint: Type
+  Value: Sitecore.Workflows.Simple.ValidatorsAction, Sitecore.Kernel
+- ID: "95fd25aa-742d-41d2-8d04-6406bba8c60d"
+  Hint: Max Result
+  Value: Warning
+- ID: "a50d7933-f230-4434-9538-29c802f0ce23"
+  Hint: Fatal Error
+  Value: You cannot approve an item with validation errors.
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20071113T152154
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7df9f9ea-15d7-4e5d-aaca-30384196a47c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T043536Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 監査チェック
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240827T042942Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0df0d46-8f9a-4d43-adfa-cabdc74a5770"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240827T042942Z
