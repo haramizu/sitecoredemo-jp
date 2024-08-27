@@ -65,6 +65,7 @@
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\zzz\languagefallback.config" />
     <Content Include="App_Data\items\core\localization\cmp.items.core.ja-JP.dat" />
     <Content Include="App_Data\items\core\localization\dam.items.core.ja-JP.dat" />
     <Content Include="App_Data\items\core\localization\items.core.ja-JP.dat" />
