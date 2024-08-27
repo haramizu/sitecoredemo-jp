@@ -9,6 +9,11 @@
         "scope": "singleItem"
       },
       {
+        "name": "SystemLanguagesEnUs",
+        "path": "/sitecore/system/Languages/en-US",
+        "scope": "singleItem"
+      },
+      {
         "name": "core-SystemLanguages",
         "path": "/sitecore/system/Languages/ja-JP",
         "scope": "singleItem",
