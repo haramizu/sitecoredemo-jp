@@ -50,6 +50,9 @@ const getLinkField = (props: NavigationProps): LinkField => ({
 export const Default = (props: NavigationProps): JSX.Element => {
   const [isOpenMenu, openMenu] = useState(false);
   const { sitecoreContext } = useSitecoreContext();
+
+  console.log(sitecoreContext.language);
+
   const styles =
     props.params != null
       ? `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd()
