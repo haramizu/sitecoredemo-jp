@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {
   Link,
   LinkField,
+  SitecoreContextValue,
   Text,
   TextField,
   useSitecoreContext,
@@ -23,6 +24,7 @@ type NavigationProps = {
   fields: Fields;
   handleClick: (event?: React.MouseEvent<HTMLElement>) => void;
   relativeLevel: number;
+  locale: string;
 };
 
 const getNavigationText = function (props: NavigationProps): JSX.Element | string {
@@ -39,9 +41,21 @@ const getNavigationText = function (props: NavigationProps): JSX.Element | strin
   return text;
 };
 
+const getLocale = function (props: SitecoreContextValue): string {
+  let locale;
+
+  if (!props.language || props.language === 'en') {
+    locale = '/';
+  } else {
+    locale = '/' + props.language;
+  }
+
+  return locale;
+};
+
 const getLinkField = (props: NavigationProps): LinkField => ({
   value: {
-    href: props.fields.Href,
+    href: props.locale + props.fields.Href,
     title: getLinkTitle(props),
     querystring: props.fields.Querystring,
   },
@@ -51,7 +65,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
   const [isOpenMenu, openMenu] = useState(false);
   const { sitecoreContext } = useSitecoreContext();
 
-  console.log(sitecoreContext.language);
+  const contentLocale = getLocale(sitecoreContext);
 
   const styles =
     props.params != null
@@ -87,6 +101,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
         fields={element}
         handleClick={(event: React.MouseEvent<HTMLElement>) => handleToggleMenu(event, false)}
         relativeLevel={1}
+        locale={contentLocale}
       />
     ));
 
@@ -125,6 +140,7 @@ const NavigationList = (props: NavigationProps) => {
         fields={element}
         handleClick={props.handleClick}
         relativeLevel={props.relativeLevel + 1}
+        locale={props.locale}
       />
     ));
   }
