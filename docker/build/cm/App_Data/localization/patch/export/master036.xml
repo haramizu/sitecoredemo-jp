@@ -1,0 +1,8 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Style/Style/Allowed Renderings" key="Allowed Renderings" itemid="{69BB49F3-DA64-4B0E-ABD6-184B832FF6AB}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>許可されたレンダリング</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Style/Style/Allowed Renderings" key="Allowed Renderings" itemid="{69BB49F3-DA64-4B0E-ABD6-184B832FF6AB}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>許可されたレンダリング</ja-JP>
+  </phrase>
+</sitecore>

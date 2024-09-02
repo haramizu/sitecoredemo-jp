@@ -1,0 +1,8 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Style/Style/Value" key="Value" itemid="{09147FB2-EBFB-4949-8C8E-26A424409D5E}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Style/Style/Value" key="Value" itemid="{09147FB2-EBFB-4949-8C8E-26A424409D5E}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>バリュー</ja-JP>
+  </phrase>
+</sitecore>

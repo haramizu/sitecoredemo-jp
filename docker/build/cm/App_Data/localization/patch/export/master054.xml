@@ -1,0 +1,8 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/SiteMetadata/Sitemap/_Sitemap/Sitemap Settings/Priority" key="Priority" itemid="{76FB6FFD-4487-4028-A1CF-705FBE360CBA}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>優先度</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/SiteMetadata/Sitemap/_Sitemap/Sitemap Settings/Priority" key="Priority" itemid="{76FB6FFD-4487-4028-A1CF-705FBE360CBA}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>優先度</ja-JP>
+  </phrase>
+</sitecore>

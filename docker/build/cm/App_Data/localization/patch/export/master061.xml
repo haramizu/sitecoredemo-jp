@@ -1,0 +1,8 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/GenerateThumbnails" key="GenerateThumbnails" itemid="{8700CD8F-83CC-42BA-AA78-65BCCAB44FC7}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>サムネイルを生成</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/GenerateThumbnails" key="GenerateThumbnails" itemid="{8700CD8F-83CC-42BA-AA78-65BCCAB44FC7}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>サムネイルを生成</ja-JP>
+  </phrase>
+</sitecore>

@@ -1,0 +1,12 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Tag" key="Tag" itemid="{F8CD9E83-9A1F-4DEF-9178-710926E161D8}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>レンダリングされたフィールド コンテンツを折り返すために使われるHTML タグ。例： div
+左の空のフィールド コンテンツが折り返されないまま残っている場合。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Tag" key="Tag" itemid="{F8CD9E83-9A1F-4DEF-9178-710926E161D8}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Tag" key="Tag" itemid="{F8CD9E83-9A1F-4DEF-9178-710926E161D8}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+</sitecore>

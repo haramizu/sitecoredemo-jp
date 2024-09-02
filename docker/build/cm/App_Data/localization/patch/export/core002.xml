@@ -1,0 +1,5 @@
+﻿<sitecore>
+  <phrase path="/sitecore/system/Field types/Link Types/General Link/WebEdit Buttons/Insert DAM Link" key="Insert DAM Link" itemid="{5CC852F1-8F7F-4FFB-84A7-59E896E48E3D}" fieldid="{371E0D96-4F00-4B80-AD14-6284E00493BA}" updated="20220804T084615Z">
+    <ja-JP>DAM のリンクを挿入</ja-JP>
+  </phrase>
+</sitecore>

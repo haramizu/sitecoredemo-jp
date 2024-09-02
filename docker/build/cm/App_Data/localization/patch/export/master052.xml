@@ -1,0 +1,11 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Security/Base/_Role Domain/Security" key="Security" itemid="{2ED74890-D8C9-49F1-983A-480B47DE92D3}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>セキュリティ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Security/Base/_Role Domain/Security/RoleDomain" key="RoleDomain" itemid="{2F325664-BBA1-4EAC-8D8F-C365D2F40245}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ロール ドメイン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Security/Base/_Role Domain/Security/RoleDomain" key="RoleDomain" itemid="{2F325664-BBA1-4EAC-8D8F-C365D2F40245}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ロール ドメイン</ja-JP>
+  </phrase>
+</sitecore>

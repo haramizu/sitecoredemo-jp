@@ -1,0 +1,8 @@
+﻿<sitecore>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DAM Link" key="DAM Link" itemid="{14BEC934-2451-4068-8206-8CDD929CBC46}" fieldid="{C95D21BD-66C3-444B-A37F-D346CBAF2B55}" updated="20230927T021326Z">
+    <ja-JP>リンクフィールド</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DAM Link/Sync" key="Sync" itemid="{027EE242-640E-4A9B-B5BA-A0060B255D72}" fieldid="{B11F9F5F-88FC-48C5-9501-2E827EF40EAD}" updated="20231003T094150Z">
+    <ja-JP>同期</ja-JP>
+  </phrase>
+</sitecore>

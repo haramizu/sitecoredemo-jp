@@ -1,0 +1,5 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/BranchesFolder" key="BranchesFolder" itemid="{C5DBB136-3299-4835-A8CE-BCA8B49BA3FA}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ブランチの場所</ja-JP>
+  </phrase>
+</sitecore>

@@ -1,0 +1,11 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Field/Variant Details/Name" key="Name" itemid="{12FFCEB0-3945-476B-B027-464F09EA5E15}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>JSON プロパティ名をオーバーライドします。JSON参照フィールドに名前を追加することで、追加のオブジェクトを作成できます。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Field/Variant Details/Name" key="Name" itemid="{12FFCEB0-3945-476B-B027-464F09EA5E15}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Field/Variant Details/Name" key="Name" itemid="{12FFCEB0-3945-476B-B027-464F09EA5E15}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+</sitecore>

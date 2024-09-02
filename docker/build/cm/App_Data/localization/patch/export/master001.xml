@@ -1,0 +1,26 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image" key="Image" itemid="{D885DF8C-B2D6-4007-B34B-2BBAFB527304}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image" key="Image" itemid="{3C3BE4F0-803E-4363-82A7-F07322A52517}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/Image" key="Image" itemid="{57CAF172-CE57-4E48-B3A1-46F8AEA71C08}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/Image" key="Image" itemid="{57CAF172-CE57-4E48-B3A1-46F8AEA71C08}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/TargetUrl" key="TargetUrl" itemid="{75FBF1B1-E7C5-494B-9633-693909F79425}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>URL</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/TargetUrl" key="TargetUrl" itemid="{75FBF1B1-E7C5-494B-9633-693909F79425}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ターゲット URL</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/ImageCaption" key="ImageCaption" itemid="{4D7B05D0-0300-486F-8F87-57DE34A9B793}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>キャプション</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/ImageCaption" key="ImageCaption" itemid="{4D7B05D0-0300-486F-8F87-57DE34A9B793}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像 キャプション</ja-JP>
+  </phrase>
+</sitecore>
