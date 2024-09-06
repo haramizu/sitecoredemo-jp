@@ -109,4 +109,8 @@ services:
       ## Development Environment Optimizations
       SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,DebugOn,DiagnosticsOff,InitMessagesOff
       Sitecore_AppSettings_exmEnabled:define: "no" # remove to turn on EXM
+      SITECORE_AppSettings_damEnabled__define: ${SITECORE_AppSettings_damEnabled__define}
+      Sitecore_ConnectionStrings_DAM_dot_ContentHub: ${SITECORE_DAM_ContentHub}
+      Sitecore_ConnectionStrings_DAM_dot_SearchPage: ${SITECORE_DAM_SearchPage}
+      Sitecore_ConnectionStrings_DAM_dot_ExternalRedirectKey: ${SITECORE_DAM_ExternalRedirectKey}
     entrypoint: powershell -Command "& C:/tools/entrypoints/iis/XmCloudDevelopment.ps1"
