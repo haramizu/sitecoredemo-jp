@@ -13,6 +13,9 @@ module.exports = {
       pattern: /text-/,
     },
     {
+      pattern: /bg-/,
+    },
+    {
       pattern: /hidden/,
       variants: ['sm', 'md', 'lg', 'xl', '2xl'],
     },
@@ -22,7 +25,11 @@ module.exports = {
     },
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customBlue: 'rgb(0, 79, 155)',
+      },
+    },
   },
   plugins: [],
 };
