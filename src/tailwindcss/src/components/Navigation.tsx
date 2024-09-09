@@ -21,7 +21,6 @@ interface Fields {
 type NavigationProps = {
   params?: { [key: string]: string };
   fields: Fields;
-  handleClick: (event?: React.MouseEvent<HTMLElement>) => void;
   relativeLevel: number;
 };
 
@@ -48,8 +47,7 @@ const getLinkField = (props: NavigationProps): LinkField => ({
 });
 
 export const Default = (props: NavigationProps): JSX.Element => {
-  const [isOpenMenu, openMenu] = useState(false);
-  const { sitecoreContext } = useSitecoreContext();
+  // const { sitecoreContext } = useSitecoreContext();
   const styles =
     props.params != null
       ? `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd()
@@ -64,27 +62,10 @@ export const Default = (props: NavigationProps): JSX.Element => {
     );
   }
 
-  const handleToggleMenu = (event?: React.MouseEvent<HTMLElement>, flag?: boolean): void => {
-    if (event && sitecoreContext?.pageEditing) {
-      event.preventDefault();
-    }
-
-    if (flag !== undefined) {
-      return openMenu(flag);
-    }
-
-    openMenu(!isOpenMenu);
-  };
-
   const list = Object.values(props.fields)
     .filter((element) => element)
     .map((element: Fields, key: number) => (
-      <NavigationList
-        key={`${key}${element.Id}`}
-        fields={element}
-        handleClick={(event: React.MouseEvent<HTMLElement>) => handleToggleMenu(event, false)}
-        relativeLevel={1}
-      />
+      <NavigationList key={`${key}${element.Id}`} fields={element} relativeLevel={1} />
     ));
 
   return (
@@ -113,7 +94,6 @@ const NavigationList = (props: NavigationProps) => {
       <NavigationList
         key={`${index}${element.Id}`}
         fields={element}
-        handleClick={props.handleClick}
         relativeLevel={props.relativeLevel + 1}
       />
     ));
@@ -125,11 +105,7 @@ const NavigationList = (props: NavigationProps) => {
         className={`navigation-title ${children.length ? 'child' : ''}`}
         onClick={() => setActive(() => !active)}
       >
-        <Link
-          field={getLinkField(props)}
-          editable={sitecoreContext.pageEditing}
-          onClick={props.handleClick}
-        >
+        <Link field={getLinkField(props)} editable={sitecoreContext.pageEditing}>
           {getNavigationText(props)}
         </Link>
       </div>
