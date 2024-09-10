@@ -120,6 +120,14 @@ const NavigationList = (props: NavigationProps) => {
     ));
   }
 
+  if (!props.fields.NavigationTitle) {
+    return null;
+  }
+
+  if (props.fields.NavigationTitle.value === '$name') {
+    return null;
+  }
+
   return (
     <li className={`${classNameList} ${active ? 'active' : ''}`} key={props.fields.Id} tabIndex={0}>
       <div

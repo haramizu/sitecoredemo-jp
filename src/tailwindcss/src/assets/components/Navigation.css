@@ -1,0 +1,6 @@
+.component.navigation.position-right .flex {
+  justify-content: flex-end;
+}
+.component.navigation.position-center .flex {
+  justify-content: center;
+}
