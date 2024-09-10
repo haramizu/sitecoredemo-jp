@@ -1,0 +1,8 @@
+﻿<sitecore>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DevView" key="DevView" itemid="{348B27CB-6BCF-476B-8B91-7F1D7BA25B55}" fieldid="{C95D21BD-66C3-444B-A37F-D346CBAF2B55}" updated="20231109T074708Z">
+    <ja-JP>表示</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DevView/Show source" key="Show source" itemid="{7E2F775F-D25A-4A8E-847A-A1B68702718C}" fieldid="{C7A8B822-2B9D-4E1D-9E5F-82326FCBBFC1}" updated="20231109T074740Z">
+    <ja-JP>アイテムソース</ja-JP>
+  </phrase>
+</sitecore>

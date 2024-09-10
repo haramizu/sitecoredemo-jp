@@ -1,0 +1,50 @@
+<sitecore>
+  <phrase path="/sitecore/system/Field types/Simple Types/Image/Menu/M Transformation" key="M Transformation" itemid="{2B203720-C354-4192-98D0-764BB475B20F}" fieldid="{9B72A62B-2775-423D-B17A-EC34A9F31AF8}" updated="20230725T112549Z" database="core">
+    <ja-JP>DAMトランスフォーメーション</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/system/Field types/Link Types/General Link/WebEdit Buttons/Insert DAM Link" key="Insert DAM Link" itemid="{5CC852F1-8F7F-4FFB-84A7-59E896E48E3D}" fieldid="{371E0D96-4F00-4B80-AD14-6284E00493BA}" updated="20220804T084615Z" database="core">
+    <ja-JP>DAM のリンクを挿入</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DevView" key="DevView" itemid="{348B27CB-6BCF-476B-8B91-7F1D7BA25B55}" fieldid="{C95D21BD-66C3-444B-A37F-D346CBAF2B55}" updated="20231109T074708Z" database="core">
+    <ja-JP>表示</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DevView/Show source" key="Show source" itemid="{7E2F775F-D25A-4A8E-847A-A1B68702718C}" fieldid="{C7A8B822-2B9D-4E1D-9E5F-82326FCBBFC1}" updated="20231109T074740Z" database="core">
+    <ja-JP>アイテムソース</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Menues/DAM Link/Sync Children" key="Sync Children" itemid="{C1CC81F3-3AB7-48D6-BFB2-3C45C3F1B9C7}" fieldid="{9B72A62B-2775-423D-B17A-EC34A9F31AF8}" updated="20231003T071029Z" database="core">
+    <ja-JP>子アイテムの同期</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Menues/DAM Link/Sync Current" key="Sync Current" itemid="{8C924701-EC09-4565-980D-907932868CD3}" fieldid="{9B72A62B-2775-423D-B17A-EC34A9F31AF8}" updated="20231003T071032Z" database="core">
+    <ja-JP>このアイテムの同期</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Menues/DAM Link/Sync Children" key="Sync Children" itemid="{C1CC81F3-3AB7-48D6-BFB2-3C45C3F1B9C7}" fieldid="{9B72A62B-2775-423D-B17A-EC34A9F31AF8}" updated="20231003T071029Z" database="core">
+    <ja-JP>子アイテムの同期</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Menues/DAM Link/Sync Current" key="Sync Current" itemid="{8C924701-EC09-4565-980D-907932868CD3}" fieldid="{9B72A62B-2775-423D-B17A-EC34A9F31AF8}" updated="20231003T071032Z" database="core">
+    <ja-JP>このアイテムの同期</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Menues/DAM Image/Sync Children" key="Sync Children" itemid="{A0260FBC-3CDA-4A3E-B440-F022674C2B72}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="20231003T065206Z" database="core">
+    <ja-JP />
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Menues/DAM Image/Sync Children" key="Sync Children" itemid="{A0260FBC-3CDA-4A3E-B440-F022674C2B72}" fieldid="{9B72A62B-2775-423D-B17A-EC34A9F31AF8}" updated="20231003T065206Z" database="core">
+    <ja-JP>子アイテムの同期</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Menues/DAM Image/Sync Current" key="Sync Current" itemid="{F4228673-7A4E-41A4-A9C6-D4C7702B5EBE}" fieldid="{9B72A62B-2775-423D-B17A-EC34A9F31AF8}" updated="20231003T065159Z" database="core">
+    <ja-JP>このアイテムの同期</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Strips/DAM" key="DAM" itemid="{B9DE583A-9E9D-4F88-BD3C-B648C9519E6B}" fieldid="{5453DC07-6A17-48BA-8D05-17DB90A2E795}" updated="20230627T113503Z" database="core">
+    <ja-JP>DAM</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DAM Link" key="DAM Link" itemid="{14BEC934-2451-4068-8206-8CDD929CBC46}" fieldid="{C95D21BD-66C3-444B-A37F-D346CBAF2B55}" updated="20230927T021326Z" database="core">
+    <ja-JP>リンクフィールド</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DAM Link/Sync" key="Sync" itemid="{027EE242-640E-4A9B-B5BA-A0060B255D72}" fieldid="{B11F9F5F-88FC-48C5-9501-2E827EF40EAD}" updated="20231003T094150Z" database="core">
+    <ja-JP>同期</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DAM Image" key="DAM Image" itemid="{E84B3D54-E67C-430A-A73C-D24EF7E0D527}" fieldid="{C95D21BD-66C3-444B-A37F-D346CBAF2B55}" updated="20230627T112051Z" database="core">
+    <ja-JP>イメージフィールド</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DAM Image/Sync" key="Sync" itemid="{AC1C18A5-7DFB-42A4-B5EC-553CBEFCF735}" fieldid="{B11F9F5F-88FC-48C5-9501-2E827EF40EAD}" updated="20231003T071052Z" database="core">
+    <ja-JP>同期</ja-JP>
+  </phrase>
+</sitecore>

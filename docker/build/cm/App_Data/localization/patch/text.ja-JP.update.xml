@@ -1,0 +1,543 @@
+<sitecore>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image" key="Image" itemid="{D885DF8C-B2D6-4007-B34B-2BBAFB527304}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image" key="Image" itemid="{3C3BE4F0-803E-4363-82A7-F07322A52517}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/Image" key="Image" itemid="{57CAF172-CE57-4E48-B3A1-46F8AEA71C08}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/Image" key="Image" itemid="{57CAF172-CE57-4E48-B3A1-46F8AEA71C08}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/TargetUrl" key="TargetUrl" itemid="{75FBF1B1-E7C5-494B-9633-693909F79425}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>URL</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/TargetUrl" key="TargetUrl" itemid="{75FBF1B1-E7C5-494B-9633-693909F79425}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ターゲット URL</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/ImageCaption" key="ImageCaption" itemid="{4D7B05D0-0300-486F-8F87-57DE34A9B793}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>キャプション</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/ImageCaption" key="ImageCaption" itemid="{4D7B05D0-0300-486F-8F87-57DE34A9B793}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像 キャプション</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/System/Layout/Renderings/Caching/Cache Clearing Option/Data/Description" key="Description" itemid="{2CEC8DFD-8E81-42A0-8D7A-1B1844A2F9DD}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="20201127T092730Z">
+    <ja-JP>説明</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/System/Layout/Renderings/Caching/Cache Clearing Option/Data/Description" key="Description" itemid="{2CEC8DFD-8E81-42A0-8D7A-1B1844A2F9DD}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="20201127T092730Z">
+    <ja-JP>説明</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/Project" key="Project" itemid="{36CDA943-5589-4405-90BD-B0CF1C0B8450}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>プロジェクト</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/Project" key="Project" itemid="{36CDA943-5589-4405-90BD-B0CF1C0B8450}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>プロジェクト</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/GenerateThumbnails" key="GenerateThumbnails" itemid="{8700CD8F-83CC-42BA-AA78-65BCCAB44FC7}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>サムネイルを生成</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/GenerateThumbnails" key="GenerateThumbnails" itemid="{8700CD8F-83CC-42BA-AA78-65BCCAB44FC7}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>サムネイルを生成</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngineEditOnly" key="ServerSideRenderingEngineEditOnly" itemid="{557D5F36-6F2D-4EB6-A8CE-25F30F7B9397}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>サーバーサイドレンダリングエンジンの編集のみ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngineEditOnly" key="ServerSideRenderingEngineEditOnly" itemid="{557D5F36-6F2D-4EB6-A8CE-25F30F7B9397}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>サーバーサイドレンダリングエンジンの編集のみ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/PlaceholderSettingsFolder" key="PlaceholderSettingsFolder" itemid="{102B58DA-2A86-4953-B3CD-C9F91256B657}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>プレースフォルダー設定フォルダ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/PlaceholderSettingsFolder" key="PlaceholderSettingsFolder" itemid="{102B58DA-2A86-4953-B3CD-C9F91256B657}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>プレースホルダ設定フォルダ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/SettingsFolder" key="SettingsFolder" itemid="{B6953F8B-56D3-4C90-A6DB-885786711E4A}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>設定場所</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/BranchesFolder" key="BranchesFolder" itemid="{C5DBB136-3299-4835-A8CE-BCA8B49BA3FA}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ブランチの場所</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Upgrade/Upgrade Script/UpgradeInfo/Description" key="Description" itemid="{82563BD5-DE9B-4741-B79A-9BC9163E2086}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>説明</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Upgrade/Upgrade Script/UpgradeInfo/Description" key="Description" itemid="{82563BD5-DE9B-4741-B79A-9BC9163E2086}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>説明</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Theming/Component Themes/Component Theme Configuration/Themes configuration/Priority" key="Priority" itemid="{C868D0A6-6CC9-4B09-BD00-2475190545F3}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>優先度</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Theming/Component Themes/Component Theme Configuration/Themes configuration/Priority" key="Priority" itemid="{C868D0A6-6CC9-4B09-BD00-2475190545F3}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>優先度</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/SiteMetadata/Sitemap/_Sitemap/Sitemap Settings/Priority" key="Priority" itemid="{76FB6FFD-4487-4028-A1CF-705FBE360CBA}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>優先度</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/SiteMetadata/Sitemap/_Sitemap/Sitemap Settings/Priority" key="Priority" itemid="{76FB6FFD-4487-4028-A1CF-705FBE360CBA}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>優先度</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Security/ItemRights/Data/Security" key="Security" itemid="{AB0C8B8A-122A-45D9-AB77-F3CC23A02500}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>セキュリティ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Security/ItemRights/Data/Security" key="Security" itemid="{AB0C8B8A-122A-45D9-AB77-F3CC23A02500}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>Security</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Security/Base/_Role Domain/Security" key="Security" itemid="{2ED74890-D8C9-49F1-983A-480B47DE92D3}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>セキュリティ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Security/Base/_Role Domain/Security/RoleDomain" key="RoleDomain" itemid="{2F325664-BBA1-4EAC-8D8F-C365D2F40245}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ロール ドメイン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Security/Base/_Role Domain/Security/RoleDomain" key="RoleDomain" itemid="{2F325664-BBA1-4EAC-8D8F-C365D2F40245}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ロール ドメイン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Search/IBoosting/Boosting/Rule" key="Rule" itemid="{0F628FD3-A28C-4DA7-968B-DCE9F3B71B5A}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ルール</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Search/IBoosting/Boosting/Rule" key="Rule" itemid="{0F628FD3-A28C-4DA7-968B-DCE9F3B71B5A}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ルール</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Scriban/Scriban/VariantDetails/Tag" key="Tag" itemid="{8A85A595-3298-4EB1-96DD-C882EE5802AE}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Scriban/Scriban/VariantDetails/Tag" key="Tag" itemid="{8A85A595-3298-4EB1-96DD-C882EE5802AE}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/Roots/_Name/Data/Name" key="Name" itemid="{C202067E-7FAB-4606-AFB4-E76DF2185DDC}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/Roots/_Name/Data/Name" key="Name" itemid="{C202067E-7FAB-4606-AFB4-E76DF2185DDC}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/Actions/Tenant/OBSOLETE/AddItem/Action/Name" key="Name" itemid="{999779AA-AA55-493E-A943-1F3793BA34DF}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/Actions/Tenant/OBSOLETE/AddItem/Action/Name" key="Name" itemid="{999779AA-AA55-493E-A943-1F3793BA34DF}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/Actions/Base/AddItem/_Name/Action/Name" key="Name" itemid="{7868E6BC-525C-4FCE-AB8A-77DA3E09B171}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/Actions/Base/AddItem/_Name/Action/Name" key="Name" itemid="{7868E6BC-525C-4FCE-AB8A-77DA3E09B171}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/_Modules/Configuration/Modules" key="Modules" itemid="{1230D2CB-4948-4D43-8A3B-B39978F6F1B3}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>モジュール</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/_Modules/Configuration/Modules" key="Modules" itemid="{1230D2CB-4948-4D43-8A3B-B39978F6F1B3}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>モジュール</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Suffix" key="Suffix" itemid="{D362349B-906A-4A6A-BF7F-D81FC60C3BAF}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Suffix" key="Suffix" itemid="{D362349B-906A-4A6A-BF7F-D81FC60C3BAF}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>文字列値をサフィックスとして追加します。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Suffix" key="Suffix" itemid="{D362349B-906A-4A6A-BF7F-D81FC60C3BAF}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>サフィックス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Prefix" key="Prefix" itemid="{B6038067-9832-418F-B04F-C7EA5731DD5B}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>プレフィックスとして文字列値を追加します。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Prefix" key="Prefix" itemid="{B6038067-9832-418F-B04F-C7EA5731DD5B}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>プリフィックス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Prefix" key="Prefix" itemid="{B6038067-9832-418F-B04F-C7EA5731DD5B}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>プレフィックス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Tag" key="Tag" itemid="{F8CD9E83-9A1F-4DEF-9178-710926E161D8}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>レンダリングされたフィールド コンテンツを折り返すために使われるHTML タグ。例： div
+左の空のフィールド コンテンツが折り返されないまま残っている場合。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Tag" key="Tag" itemid="{F8CD9E83-9A1F-4DEF-9178-710926E161D8}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Tag" key="Tag" itemid="{F8CD9E83-9A1F-4DEF-9178-710926E161D8}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantTemplate/VariantDetails/Tag" key="Tag" itemid="{EB8432B6-DABF-48EA-B7FD-A70CF40BD300}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>レンダリングされたフィールド コンテンツを折り返すために使われるHTML タグ。例： div
+左の空のフィールド コンテンツが折り返されないまま残っている場合。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantTemplate/VariantDetails/Tag" key="Tag" itemid="{EB8432B6-DABF-48EA-B7FD-A70CF40BD300}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantTemplate/VariantDetails/Tag" key="Tag" itemid="{EB8432B6-DABF-48EA-B7FD-A70CF40BD300}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Tag" key="Tag" itemid="{DB805BDC-8EEC-4238-B174-2427B6F1F077}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>レンダリングされたフィールド コンテンツを折り返すために使われるHTML タグ。例： div
+左の空のフィールド コンテンツが折り返されないまま残っている場合。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Tag" key="Tag" itemid="{DB805BDC-8EEC-4238-B174-2427B6F1F077}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Tag" key="Tag" itemid="{DB805BDC-8EEC-4238-B174-2427B6F1F077}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Suffix" key="Suffix" itemid="{15867CB6-E128-4D78-9D4F-739E5963DFC4}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>文字列値をサフィックスとして追加します。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Suffix" key="Suffix" itemid="{15867CB6-E128-4D78-9D4F-739E5963DFC4}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>サフィックス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Suffix" key="Suffix" itemid="{15867CB6-E128-4D78-9D4F-739E5963DFC4}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>サフィックス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Prefix" key="Prefix" itemid="{FD5230D8-E68D-4E17-9D85-EA676F27AC3A}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>プレフィックスとして文字列値を追加します。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Prefix" key="Prefix" itemid="{FD5230D8-E68D-4E17-9D85-EA676F27AC3A}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>プリフィックス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Prefix" key="Prefix" itemid="{FD5230D8-E68D-4E17-9D85-EA676F27AC3A}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>プレフィックス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/HTML Tag/VariantDetails/Tag" key="Tag" itemid="{71DF8BF2-CAEF-40FB-8C71-E416EB3EF75B}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>レンダリングされたフィールド コンテンツを折り返すために使われるHTML タグ。例： div
+左の空のフィールド コンテンツが折り返されないまま残っている場合。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/HTML Tag/VariantDetails/Tag" key="Tag" itemid="{71DF8BF2-CAEF-40FB-8C71-E416EB3EF75B}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/HTML Tag/VariantDetails/Tag" key="Tag" itemid="{71DF8BF2-CAEF-40FB-8C71-E416EB3EF75B}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>タグ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Style/Style/Value" key="Value" itemid="{09147FB2-EBFB-4949-8C8E-26A424409D5E}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Style/Style/Value" key="Value" itemid="{09147FB2-EBFB-4949-8C8E-26A424409D5E}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Style/Style/Allowed Renderings" key="Allowed Renderings" itemid="{69BB49F3-DA64-4B0E-ABD6-184B832FF6AB}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>許可されたレンダリング</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Style/Style/Allowed Renderings" key="Allowed Renderings" itemid="{69BB49F3-DA64-4B0E-ABD6-184B832FF6AB}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>許可されたレンダリング</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Base/_Base Partial Design/Data/Base Partial Design" key="Base Partial Design" itemid="{76A92454-C8BE-479B-B260-26AEBCED5A1A}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ベース パーシャル デザイン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Base/_Base Partial Design/Data/Base Partial Design" key="Base Partial Design" itemid="{76A92454-C8BE-479B-B260-26AEBCED5A1A}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ベース パーシャル デザイン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Available Renderings/_Renderings List/Data/Renderings" key="Renderings" itemid="{715AE6C0-71C8-4744-AB4F-65362D20AD65}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>レンダリング</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/Available Renderings/_Renderings List/Data/Renderings" key="Renderings" itemid="{715AE6C0-71C8-4744-AB4F-65362D20AD65}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>レンダリング</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/_Designable/Designing/Page Design" key="Page Design" itemid="{24171BF1-C0E1-480E-BE76-4C0A1876F916}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ページデザイン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Presentation/_Designable/Designing/Page Design" key="Page Design" itemid="{24171BF1-C0E1-480E-BE76-4C0A1876F916}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ページ デザイン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Page Branches/Page Branches Folder/Data/Rule" key="Rule" itemid="{BB3391DD-F8BE-4B2E-AE9F-47BB63C166CE}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ルール</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Page Branches/Page Branches Folder/Data/Rule" key="Rule" itemid="{BB3391DD-F8BE-4B2E-AE9F-47BB63C166CE}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ルール</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Link Settings/Site Configuration/Link Settings" key="Link Settings" itemid="{E41D2D4B-4C5D-4467-A8D6-0CFA23577501}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>リンク設定</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Link Settings/Site Configuration/Link Settings" key="Link Settings" itemid="{E41D2D4B-4C5D-4467-A8D6-0CFA23577501}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>リンク設定</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Language/Language Embedding" key="Language Embedding" itemid="{4E9E2AE5-36DB-4955-9AF1-5A1934A27C7D}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>言語の埋め込み</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Language/Language Embedding" key="Language Embedding" itemid="{4E9E2AE5-36DB-4955-9AF1-5A1934A27C7D}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>言語の埋め込み</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Language/Language" key="Language" itemid="{F19277FE-1B85-4B0A-8C26-5E74D766B3A3}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>言語</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Language/Language" key="Language" itemid="{F19277FE-1B85-4B0A-8C26-5E74D766B3A3}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>言語</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Basic/Scheme" key="Scheme" itemid="{B59E43AB-84DA-49F3-87A1-D2FCF648365B}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>スキーマ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Basic/Scheme" key="Scheme" itemid="{B59E43AB-84DA-49F3-87A1-D2FCF648365B}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>スキーマ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Basic/Port" key="Port" itemid="{1BF930DC-11E1-4103-9001-59562B698C96}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ポート</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Basic/Port" key="Port" itemid="{1BF930DC-11E1-4103-9001-59562B698C96}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ポート</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Shared Sites Settings/Data/Delegated Areas" key="Delegated Areas" itemid="{D5E1CC0E-0D69-4A31-8321-13994D5ACCF6}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>デリゲート エリア</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Shared Sites Settings/Data/Delegated Areas" key="Delegated Areas" itemid="{D5E1CC0E-0D69-4A31-8321-13994D5ACCF6}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デリゲート エリア</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Token/Variant details/Name" key="Name" itemid="{1DE574D0-4129-4566-9952-B3FE30C8AC49}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>JSON プロパティ名をオーバーライドします。JSON参照フィールドに名前を追加することで、追加のオブジェクトを作成できます。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Token/Variant details/Name" key="Name" itemid="{1DE574D0-4129-4566-9952-B3FE30C8AC49}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Token/Variant details/Name" key="Name" itemid="{1DE574D0-4129-4566-9952-B3FE30C8AC49}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Text/Variants details/Name" key="Name" itemid="{1F3AE4D8-2C41-45D3-B023-A19DBDB01214}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>JSON プロパティ名をオーバーライドします。JSON参照フィールドに名前を追加することで、追加のオブジェクトを作成できます。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Text/Variants details/Name" key="Name" itemid="{1F3AE4D8-2C41-45D3-B023-A19DBDB01214}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Text/Variants details/Name" key="Name" itemid="{1F3AE4D8-2C41-45D3-B023-A19DBDB01214}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Template/Variant details/Name" key="Name" itemid="{EE0E0915-A83D-417A-8C19-AA82B9BF577F}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>JSON プロパティ名をオーバーライドします。JSON参照フィールドに名前を追加することで、追加のオブジェクトを作成できます。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Template/Variant details/Name" key="Name" itemid="{EE0E0915-A83D-417A-8C19-AA82B9BF577F}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Template/Variant details/Name" key="Name" itemid="{EE0E0915-A83D-417A-8C19-AA82B9BF577F}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Section/Variant details/Name" key="Name" itemid="{7E0DD42C-F87C-4E1E-A225-E17E0BA15811}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>JSON プロパティ名をオーバーライドします。JSON参照フィールドに名前を追加することで、追加のオブジェクトを作成できます。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Section/Variant details/Name" key="Name" itemid="{7E0DD42C-F87C-4E1E-A225-E17E0BA15811}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Section/Variant details/Name" key="Name" itemid="{7E0DD42C-F87C-4E1E-A225-E17E0BA15811}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Reference/Variant details/Name" key="Name" itemid="{22697D54-48B2-49B9-BFA9-D10A34F1B1EB}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>JSON プロパティ名をオーバーライドします。JSON参照フィールドに名前を追加することで、追加のオブジェクトを作成できます。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Reference/Variant details/Name" key="Name" itemid="{22697D54-48B2-49B9-BFA9-D10A34F1B1EB}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Reference/Variant details/Name" key="Name" itemid="{22697D54-48B2-49B9-BFA9-D10A34F1B1EB}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Query/Variant details/Name" key="Name" itemid="{45084238-BEFD-42D7-A6E1-69185E66B682}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>JSON プロパティ名をオーバーライドします。JSON参照フィールドに名前を追加することで、追加のオブジェクトを作成できます。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Query/Variant details/Name" key="Name" itemid="{45084238-BEFD-42D7-A6E1-69185E66B682}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Query/Variant details/Name" key="Name" itemid="{45084238-BEFD-42D7-A6E1-69185E66B682}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Placeholder/Variant details/Name" key="Name" itemid="{318CDB5D-2435-4961-8EF7-B18A38023237}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>JSON プロパティ名をオーバーライドします。JSON参照フィールドに名前を追加することで、追加のオブジェクトを作成できます。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Placeholder/Variant details/Name" key="Name" itemid="{318CDB5D-2435-4961-8EF7-B18A38023237}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Placeholder/Variant details/Name" key="Name" itemid="{318CDB5D-2435-4961-8EF7-B18A38023237}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Field/Variant Details/Name" key="Name" itemid="{12FFCEB0-3945-476B-B027-464F09EA5E15}" fieldid="{577F1689-7DE4-4AD2-A15F-7FDC1759285F}" updated="00010101T000000Z">
+    <ja-JP>JSON プロパティ名をオーバーライドします。JSON参照フィールドに名前を追加することで、追加のオブジェクトを作成できます。</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Field/Variant Details/Name" key="Name" itemid="{12FFCEB0-3945-476B-B027-464F09EA5E15}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Field/Variant Details/Name" key="Name" itemid="{12FFCEB0-3945-476B-B027-464F09EA5E15}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon/Data/Icon" key="Icon" itemid="{39816442-74D9-4CE2-BEB3-128B204EFD40}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon/Data/Icon" key="Icon" itemid="{39816442-74D9-4CE2-BEB3-128B204EFD40}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType/Data/Type" key="Type" itemid="{62CA1C9E-71A4-465F-835E-55BDA7BB270B}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>タイプ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType/Data/Type" key="Type" itemid="{62CA1C9E-71A4-465F-835E-55BDA7BB270B}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>タイプ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon" key="Horizon" itemid="{CE1605E0-62B2-4FC5-BB9A-477E37D42000}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP />
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices" key="Devices" itemid="{4966F692-4970-4CA8-955E-EA91F02E0296}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デバイス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base" key="Base" itemid="{FAD52689-0B7A-4092-B4B5-D78E520951D7}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ベース</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Icon" key="_Icon" itemid="{E35821CA-6A09-4D40-AA00-C86FC7E2E66E}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>_アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Icon/Data" key="Data" itemid="{0B789787-6926-4ACD-83D3-B93ECB312E46}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Icon/Data/Icon" key="Icon" itemid="{BF2F5042-9481-488D-A389-1B70A0B78ED8}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Icon/Data/Icon" key="Icon" itemid="{BF2F5042-9481-488D-A389-1B70A0B78ED8}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Name" key="_Name" itemid="{600CBACF-7AD5-423E-B5C7-943B8924BA9C}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>_名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Name/Data" key="Data" itemid="{03C29F30-62FF-49B9-8407-6991813033AC}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Name/Data/Name" key="Name" itemid="{4F886DD0-63DC-4A32-8765-E7FE78B9B0D2}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Name/Data/Name" key="Name" itemid="{4F886DD0-63DC-4A32-8765-E7FE78B9B0D2}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Type" key="_Type" itemid="{836B39F5-7467-4C00-84AF-2E3ED26D558F}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>_タイプ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Type/Data" key="Data" itemid="{D4F06647-7124-4F83-A7D0-A04967F25AB9}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Type/Data/Type" key="Type" itemid="{654618D7-A288-44A2-BFA8-A9E1CCB4EFB8}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>表示/非表示</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Type/Data/Type" key="Type" itemid="{654618D7-A288-44A2-BFA8-A9E1CCB4EFB8}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Width" key="_Width" itemid="{166A2F25-9AAF-4A50-A9F8-A06095674CEC}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>_幅</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Width/Data" key="Data" itemid="{EFC11A56-86E1-4B10-B3FE-8B8FCA55AA85}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Width/Data/Width" key="Width" itemid="{01C5C169-867F-4A45-A8A3-891A3B13B39A}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>デバイスの幅</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Width/Data/Width" key="Width" itemid="{01C5C169-867F-4A45-A8A3-891A3B13B39A}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Device" key="Device" itemid="{7C27EC70-F42E-4042-8A0F-ABAA2F8EDA18}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デバイス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Devices" key="Devices" itemid="{2604AC58-99CA-4973-9432-1A958CB8B446}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デバイス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Devices/Device" key="Device" itemid="{ED489EFE-B995-4AC3-9817-F1B7F46B5DDB}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デバイス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Devices/Device/Default" key="Default" itemid="{DC554656-A2F9-4771-9CE9-4B3C28770F20}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Devices/Device/Default" key="Default" itemid="{DC554656-A2F9-4771-9CE9-4B3C28770F20}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デフォルト</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty" key="IAllowEmpty" itemid="{7522F99E-0FFF-4427-92F2-1B6142334358}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>IAllowEmpty</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty/Data" key="Data" itemid="{09909370-09A8-421E-AA12-894B0D6F705A}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty/Data/AllowEmpty" key="AllowEmpty" itemid="{C91E098F-A65C-4625-B166-0ED004ADAA75}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="20240830T064710Z">
+    <ja-JP>空白値を許可します</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty/Data/AllowEmpty" key="AllowEmpty" itemid="{C91E098F-A65C-4625-B166-0ED004ADAA75}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="20240830T064710Z">
+    <ja-JP>AllowEmpty</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType" key="IControlType" itemid="{EEEBE923-8528-4D0D-B70A-F2132A5A7A4D}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>IControlType</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType/Data" key="Data" itemid="{F32FEAB0-CB67-4500-9816-FC475DB196CF}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType/Data/Type" key="Type" itemid="{62CA1C9E-71A4-465F-835E-55BDA7BB270B}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>タイプ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType/Data/Type" key="Type" itemid="{62CA1C9E-71A4-465F-835E-55BDA7BB270B}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>タイプ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon" key="IIcon" itemid="{7E97E7AC-0C9F-4EBF-B106-CCBFE44985A4}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>IIcon</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon/Data" key="Data" itemid="{417D4D0A-3986-41CE-AAE6-A82ADD193D57}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon/Data/Icon" key="Icon" itemid="{39816442-74D9-4CE2-BEB3-128B204EFD40}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon/Data/Icon" key="Icon" itemid="{39816442-74D9-4CE2-BEB3-128B204EFD40}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/_HorizonDatasourceGrouping" key="_HorizonDatasourceGrouping" itemid="{D0F6BE14-2A2D-4C56-ACB5-80CAA573B8E2}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>_水平データソースのグループ化</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty/Data/AllowEmpty" key="AllowEmpty" itemid="{C91E098F-A65C-4625-B166-0ED004ADAA75}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="20240830T064710Z">
+    <ja-JP>空白値を許可します</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty/Data/AllowEmpty" key="AllowEmpty" itemid="{C91E098F-A65C-4625-B166-0ED004ADAA75}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="20240830T064710Z">
+    <ja-JP>AllowEmpty</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition/Information/Name" key="Name" itemid="{21624C80-7821-4EED-B788-C716C5C1A088}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition/Information/Name" key="Name" itemid="{21624C80-7821-4EED-B788-C716C5C1A088}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Dropdown/Help/Tooltip" key="Tooltip" itemid="{9C7CF235-A456-4320-A156-03F1E0CCA6C6}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ヒント</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Dropdown/Help/Tooltip" key="Tooltip" itemid="{9C7CF235-A456-4320-A156-03F1E0CCA6C6}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ヒント</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Dropdown/Control/Allow Empty Value" key="Allow Empty Value" itemid="{7BB96072-0860-41DC-A908-3CCFDF46D30F}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>空白値を許可します</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Dropdown/Control/Allow Empty Value" key="Allow Empty Value" itemid="{7BB96072-0860-41DC-A908-3CCFDF46D30F}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>空白値を許可します</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Checkbox/Help/Tooltip" key="Tooltip" itemid="{3F7C057A-70A9-4E83-AB43-7C6D83E550A8}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>ヒント</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Checkbox/Help/Tooltip" key="Tooltip" itemid="{3F7C057A-70A9-4E83-AB43-7C6D83E550A8}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ヒント</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Checkbox/Grid Parameter/Class" key="Class" itemid="{0023EC7C-781A-45B3-A40F-5B7F9C03E082}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>クラス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Checkbox/Grid Parameter/Class" key="Class" itemid="{0023EC7C-781A-45B3-A40F-5B7F9C03E082}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>クラス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/_Grid Mapping/Grid/Grid Mapping" key="Grid Mapping" itemid="{AD84CC6B-32EF-49D8-9326-916976CB2520}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>グリッド マッピング</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Grid/_Grid Mapping/Grid/Grid Mapping" key="Grid Mapping" itemid="{AD84CC6B-32EF-49D8-9326-916976CB2520}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>グリッド マッピング</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Geospatial/POI/Properties/Image" key="Image" itemid="{0D044F4B-5AB5-4BFC-811B-63F25C84F751}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Geospatial/POI/Properties/Image" key="Image" itemid="{0D044F4B-5AB5-4BFC-811B-63F25C84F751}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Geospatial/My Location POI/Properties/Image" key="Image" itemid="{971D6D7B-41C5-472A-91B3-876BA5CE89E3}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Geospatial/My Location POI/Properties/Image" key="Image" itemid="{971D6D7B-41C5-472A-91B3-876BA5CE89E3}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/FEaaS/IFEaaSComponents editor script URL/Site Configuration/ComponentEditorScript" key="ComponentEditorScript" itemid="{9CBC4D47-1608-4A43-AC9C-6EB461FE58F5}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>FEaaS コンポーネントエディタースクリプトURL</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/FEaaS/IFEaaSComponents data source templates/Site Configuration/ComponentDataSourceTemplates" key="ComponentDataSourceTemplates" itemid="{9CE73B35-34D3-49DC-BD5A-CE1E8267FDA9}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>FEaaS コンポーネント データソース テンプレート</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo/PromoIcon" key="PromoIcon" itemid="{F94B9858-C439-4291-863B-757B536C8B65}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo/PromoIcon" key="PromoIcon" itemid="{F94B9858-C439-4291-863B-757B536C8B65}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>プロモ アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Feature/JSS Experience Accelerator/Media/Rendering Parameters/Image" key="Image" itemid="{15185B0E-6418-4449-9F93-4FF03B7EE032}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>画像</ja-JP>
+  </phrase>
+</sitecore>

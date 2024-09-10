@@ -1,0 +1,8 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Theming/Component Themes/Component Theme Configuration/Themes configuration/Priority" key="Priority" itemid="{C868D0A6-6CC9-4B09-BD00-2475190545F3}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>優先度</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Theming/Component Themes/Component Theme Configuration/Themes configuration/Priority" key="Priority" itemid="{C868D0A6-6CC9-4B09-BD00-2475190545F3}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>優先度</ja-JP>
+  </phrase>
+</sitecore>

@@ -1,0 +1,82 @@
+master
+/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image
+/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image
+/sitecore/templates/Feature/JSS Experience Accelerator/Media/Image/Image/Image
+/sitecore/templates/Feature/JSS Experience Accelerator/Media/Rendering Parameters/Image
+/sitecore/templates/Feature/JSS Experience Accelerator/Page Content/Promo/Promo/PromoIcon
+/sitecore/templates/Foundation/Experience Accelerator/FEaaS/IFEaaSComponents data source templates/Site Configuration/ComponentDataSourceTemplates
+/sitecore/templates/Foundation/Experience Accelerator/FEaaS/IFEaaSComponents editor script URL/Site Configuration/ComponentEditorScript
+/sitecore/templates/Foundation/Experience Accelerator/Geospatial/My Location POI/Properties/Image
+/sitecore/templates/Foundation/Experience Accelerator/Geospatial/POI/Properties/Image
+/sitecore/templates/Foundation/Experience Accelerator/Grid/_Grid Mapping/Grid/Grid Mapping
+/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Checkbox/Grid Parameter/Class
+/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Checkbox/Help/Tooltip
+/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Dropdown/Control/Allow Empty Value
+/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition Items/Device children/Dropdown/Help/Tooltip
+/sitecore/templates/Foundation/Experience Accelerator/Grid/Grid Definition/Information/Name
+/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty/Data/AllowEmpty
+/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType/Data/Type
+/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon/Data/Icon
+/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Field/Variant Details/Name
+/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Placeholder/Variant details/Name
+/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Query/Variant details/Name
+/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Reference/Variant details/Name
+/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Section/Variant details/Name
+/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Template/Variant details/Name
+/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Text/Variants details/Name
+/sitecore/templates/Foundation/Experience Accelerator/Json Variants/JSON Token/Variant details/Name
+/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Shared Sites Settings/Data/Delegated Areas
+/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Basic/Port
+/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Basic/Scheme
+/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Language/Language
+/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Base Site Definition/Language/Language Embedding
+/sitecore/templates/Foundation/Experience Accelerator/Multisite/Base/_Link Settings/Site Configuration/Link Settings
+/sitecore/templates/Foundation/Experience Accelerator/Page Branches/Page Branches Folder/Data/Rule
+/sitecore/templates/Foundation/Experience Accelerator/Presentation/_Designable/Designing/Page Design
+/sitecore/templates/Foundation/Experience Accelerator/Presentation/Available Renderings/_Renderings List/Data/Renderings
+/sitecore/templates/Foundation/Experience Accelerator/Presentation/Base/_Base Partial Design/Data/Base Partial Design
+/sitecore/templates/Foundation/Experience Accelerator/Presentation/Style/Style/Allowed Renderings
+/sitecore/templates/Foundation/Experience Accelerator/Presentation/Style/Style/Value
+/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/HTML Tag/VariantDetails/Tag
+/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Prefix
+/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Suffix
+/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantField/VariantDetails/Tag
+/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantTemplate/VariantDetails/Tag
+/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Prefix
+/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Suffix
+/sitecore/templates/Foundation/Experience Accelerator/Rendering Variants/VariantToken/VariantDetails/Tag
+/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/_Modules/Configuration/Modules
+/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/Actions/Base/AddItem/_Name/Action/Name
+/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/Actions/Tenant/OBSOLETE/AddItem/Action/Name
+/sitecore/templates/Foundation/Experience Accelerator/Scaffolding/Roots/_Name/Data/Name
+/sitecore/templates/Foundation/Experience Accelerator/Scriban/Scriban/VariantDetails/Tag
+/sitecore/templates/Foundation/Experience Accelerator/Search/IBoosting/Boosting/Rule
+/sitecore/templates/Foundation/Experience Accelerator/Security/Base/_Role Domain/Security
+/sitecore/templates/Foundation/Experience Accelerator/Security/ItemRights/Data/Security
+/sitecore/templates/Foundation/Experience Accelerator/SiteMetadata/Sitemap/_Sitemap/Sitemap Settings/Priority
+/sitecore/templates/Foundation/Experience Accelerator/Theming/Component Themes/Component Theme Configuration/Themes configuration/Priority
+/sitecore/templates/Foundation/Experience Accelerator/Upgrade/Upgrade Script/UpgradeInfo/Description
+/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/BranchesFolder
+/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/PlaceholderSettingsFolder
+/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/SettingsFolder
+
+/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings/App Settings/ServerSideRenderingEngineEditOnly 
+/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/GenerateThumbnails
+/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Site/Settings/Project
+/sitecore/templates/System/Layout/Renderings/Caching/Cache Clearing Option/Data/Description
+
+core
+/sitecore/system/Field types/Simple Types/Image/Menu/M Transformation
+/sitecore/system/Field types/Link Types/General Link/WebEdit Buttons/Insert DAM Link
+/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DevView
+/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DevView/Show source
+/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DAM Image
+/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DAM Image/Sync
+/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DAM Link/Sync
+/sitecore/content/Applications/Content Editor/Ribbons/Chunks/DAM Link
+/sitecore/content/Applications/Content Editor/Ribbons/Ribbons/Default/DAM
+/sitecore/content/Applications/Content Editor/Ribbons/Strips/DAM
+/sitecore/content/Applications/Content Editor/Menues/DAM Image/Sync Current
+/sitecore/content/Applications/Content Editor/Menues/DAM Image/Sync Children
+/sitecore/content/Applications/Content Editor/Menues/DAM Link/Sync Children
+/sitecore/content/Applications/Content Editor/Menues/DAM Link/Sync Current

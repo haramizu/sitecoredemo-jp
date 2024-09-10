@@ -1,0 +1,8 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/PlaceholderSettingsFolder" key="PlaceholderSettingsFolder" itemid="{102B58DA-2A86-4953-B3CD-C9F91256B657}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>プレースフォルダー設定フォルダ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/Base/_Base JSS Tenant/Configuration/PlaceholderSettingsFolder" key="PlaceholderSettingsFolder" itemid="{102B58DA-2A86-4953-B3CD-C9F91256B657}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>プレースホルダ設定フォルダ</ja-JP>
+  </phrase>
+</sitecore>

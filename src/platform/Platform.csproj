@@ -65,6 +65,7 @@
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\zzz\languagefallback.config" />
     <Content Include="App_Data\items\core\localization\cmp.items.core.ja-JP.dat" />
     <Content Include="App_Data\items\core\localization\dam.items.core.ja-JP.dat" />
     <Content Include="App_Data\items\core\localization\items.core.ja-JP.dat" />
@@ -75,11 +76,11 @@
     <Content Include="App_Data\items\master\localization\items.master.ja-JP.dat" />
     <Content Include="App_Data\items\master\localization\items.master.jss.ja-JP.dat" />
     <Content Include="App_Data\items\master\localization\items.master.sxa.ja-JP.dat" />
-    <Content Include="App_Data\items\web\localization\cmp.items.web.ja-JP.dat" />
-    <Content Include="App_Data\items\web\localization\dam.items.web.ja-JP.dat" />
-    <Content Include="App_Data\items\web\localization\items.web.ja-JP.dat" />
-    <Content Include="App_Data\items\web\localization\items.web.jss.ja-JP.dat" />
-    <Content Include="App_Data\items\web\localization\items.web.sxa.ja-JP.dat" />
+    <Content Include="App_Data\localization\cmp.texts.ja-JP.xml" />
+    <Content Include="App_Data\localization\dam.texts.ja-JP.xml" />
+    <Content Include="App_Data\localization\texts.ja-JP.xml" />
+    <Content Include="App_Data\localization\texts.jss.ja-JP.xml" />
+    <Content Include="App_Data\localization\texts.sxa.ja-JP.xml" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />

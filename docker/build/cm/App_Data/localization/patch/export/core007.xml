@@ -1,0 +1,11 @@
+﻿<sitecore>
+  <phrase path="/sitecore/content/Applications/Content Editor/Menues/DAM Image/Sync Children" key="Sync Children" itemid="{A0260FBC-3CDA-4A3E-B440-F022674C2B72}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="20231003T065206Z">
+    <ja-JP />
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Menues/DAM Image/Sync Children" key="Sync Children" itemid="{A0260FBC-3CDA-4A3E-B440-F022674C2B72}" fieldid="{9B72A62B-2775-423D-B17A-EC34A9F31AF8}" updated="20231003T065206Z">
+    <ja-JP>子アイテムの同期</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/content/Applications/Content Editor/Menues/DAM Image/Sync Current" key="Sync Current" itemid="{F4228673-7A4E-41A4-A9C6-D4C7702B5EBE}" fieldid="{9B72A62B-2775-423D-B17A-EC34A9F31AF8}" updated="20231003T065159Z">
+    <ja-JP>このアイテムの同期</ja-JP>
+  </phrase>
+</sitecore>

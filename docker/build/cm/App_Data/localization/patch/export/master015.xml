@@ -1,0 +1,113 @@
+﻿<sitecore>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon" key="Horizon" itemid="{CE1605E0-62B2-4FC5-BB9A-477E37D42000}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP />
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices" key="Devices" itemid="{4966F692-4970-4CA8-955E-EA91F02E0296}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デバイス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base" key="Base" itemid="{FAD52689-0B7A-4092-B4B5-D78E520951D7}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>ベース</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Icon" key="_Icon" itemid="{E35821CA-6A09-4D40-AA00-C86FC7E2E66E}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>_アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Icon/Data" key="Data" itemid="{0B789787-6926-4ACD-83D3-B93ECB312E46}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Icon/Data/Icon" key="Icon" itemid="{BF2F5042-9481-488D-A389-1B70A0B78ED8}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Icon/Data/Icon" key="Icon" itemid="{BF2F5042-9481-488D-A389-1B70A0B78ED8}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Name" key="_Name" itemid="{600CBACF-7AD5-423E-B5C7-943B8924BA9C}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>_名前</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Name/Data" key="Data" itemid="{03C29F30-62FF-49B9-8407-6991813033AC}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Name/Data/Name" key="Name" itemid="{4F886DD0-63DC-4A32-8765-E7FE78B9B0D2}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Name/Data/Name" key="Name" itemid="{4F886DD0-63DC-4A32-8765-E7FE78B9B0D2}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Type" key="_Type" itemid="{836B39F5-7467-4C00-84AF-2E3ED26D558F}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>_タイプ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Type/Data" key="Data" itemid="{D4F06647-7124-4F83-A7D0-A04967F25AB9}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Type/Data/Type" key="Type" itemid="{654618D7-A288-44A2-BFA8-A9E1CCB4EFB8}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>表示/非表示</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Type/Data/Type" key="Type" itemid="{654618D7-A288-44A2-BFA8-A9E1CCB4EFB8}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Width" key="_Width" itemid="{166A2F25-9AAF-4A50-A9F8-A06095674CEC}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>_幅</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Width/Data" key="Data" itemid="{EFC11A56-86E1-4B10-B3FE-8B8FCA55AA85}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Width/Data/Width" key="Width" itemid="{01C5C169-867F-4A45-A8A3-891A3B13B39A}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>デバイスの幅</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Base/_Width/Data/Width" key="Width" itemid="{01C5C169-867F-4A45-A8A3-891A3B13B39A}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Device" key="Device" itemid="{7C27EC70-F42E-4042-8A0F-ABAA2F8EDA18}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デバイス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Devices" key="Devices" itemid="{2604AC58-99CA-4973-9432-1A958CB8B446}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デバイス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Devices/Device" key="Device" itemid="{ED489EFE-B995-4AC3-9817-F1B7F46B5DDB}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デバイス</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Devices/Device/Default" key="Default" itemid="{DC554656-A2F9-4771-9CE9-4B3C28770F20}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>__標準値</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/Devices/Devices/Device/Default" key="Default" itemid="{DC554656-A2F9-4771-9CE9-4B3C28770F20}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>デフォルト</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty" key="IAllowEmpty" itemid="{7522F99E-0FFF-4427-92F2-1B6142334358}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>IAllowEmpty</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty/Data" key="Data" itemid="{09909370-09A8-421E-AA12-894B0D6F705A}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty/Data/AllowEmpty" key="AllowEmpty" itemid="{C91E098F-A65C-4625-B166-0ED004ADAA75}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="20240830T064710Z">
+    <ja-JP>空白値を許可します</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IAllowEmpty/Data/AllowEmpty" key="AllowEmpty" itemid="{C91E098F-A65C-4625-B166-0ED004ADAA75}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="20240830T064710Z">
+    <ja-JP>AllowEmpty</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType" key="IControlType" itemid="{EEEBE923-8528-4D0D-B70A-F2132A5A7A4D}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>IControlType</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType/Data" key="Data" itemid="{F32FEAB0-CB67-4500-9816-FC475DB196CF}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType/Data/Type" key="Type" itemid="{62CA1C9E-71A4-465F-835E-55BDA7BB270B}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>タイプ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IControlType/Data/Type" key="Type" itemid="{62CA1C9E-71A4-465F-835E-55BDA7BB270B}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>タイプ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon" key="IIcon" itemid="{7E97E7AC-0C9F-4EBF-B106-CCBFE44985A4}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>IIcon</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon/Data" key="Data" itemid="{417D4D0A-3986-41CE-AAE6-A82ADD193D57}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>データ</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon/Data/Icon" key="Icon" itemid="{39816442-74D9-4CE2-BEB3-128B204EFD40}" fieldid="{19A69332-A23E-4E70-8D16-B2640CB24CC8}" updated="00010101T000000Z">
+    <ja-JP>アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/IIcon/Data/Icon" key="Icon" itemid="{39816442-74D9-4CE2-BEB3-128B204EFD40}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>アイコン</ja-JP>
+  </phrase>
+  <phrase path="/sitecore/templates/Foundation/Experience Accelerator/Horizon/_HorizonDatasourceGrouping" key="_HorizonDatasourceGrouping" itemid="{D0F6BE14-2A2D-4C56-ACB5-80CAA573B8E2}" fieldid="{B5E02AD9-D56F-4C41-A065-A133DB87BDEB}" updated="00010101T000000Z">
+    <ja-JP>_水平データソースのグループ化</ja-JP>
+  </phrase>
+</sitecore>

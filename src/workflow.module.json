@@ -1,0 +1,12 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Workflow",
+  "items": {
+    "includes": [
+      {
+        "name": "DemoWorkflow",
+        "path": "/sitecore/system/Workflows/Standard Workflow"
+      }
+    ]
+  }
+}
