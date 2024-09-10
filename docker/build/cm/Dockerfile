@@ -14,8 +14,8 @@ WORKDIR C:\inetpub\wwwroot
 # Copy Localization Files
 COPY .\App_Data \inetpub\wwwroot\App_Data
 
-# Copy Config files
-COPY .\App_Config \inetpub\wwwroot\App_Config
+# Copy Config files - language fallback
+# COPY .\App_Config \inetpub\wwwroot\App_Config
 
 # Copy Xdts
 COPY .\Xdts\ .\Xdts

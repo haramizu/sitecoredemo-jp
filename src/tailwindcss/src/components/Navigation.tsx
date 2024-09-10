@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {
   Link,
   LinkField,
+  SitecoreContextValue,
   Text,
   TextField,
   useSitecoreContext,
@@ -22,6 +23,7 @@ type NavigationProps = {
   params?: { [key: string]: string };
   fields: Fields;
   relativeLevel: number;
+  locale: string;
 };
 
 const getNavigationText = function (props: NavigationProps): JSX.Element | string {
@@ -38,16 +40,31 @@ const getNavigationText = function (props: NavigationProps): JSX.Element | strin
   return text;
 };
 
+const getLocale = function (props: SitecoreContextValue): string {
+  let locale;
+
+  if (!props.language || props.language === 'en') {
+    locale = '';
+  } else {
+    locale = '/' + props.language;
+  }
+
+  return locale;
+};
+
 const getLinkField = (props: NavigationProps): LinkField => ({
   value: {
-    href: props.fields.Href,
+    href: props.locale + props.fields.Href,
     title: getLinkTitle(props),
     querystring: props.fields.Querystring,
   },
 });
 
 export const Default = (props: NavigationProps): JSX.Element => {
-  // const { sitecoreContext } = useSitecoreContext();
+  const { sitecoreContext } = useSitecoreContext();
+
+  const contentLocale = getLocale(sitecoreContext);
+
   const styles =
     props.params != null
       ? `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd()
@@ -65,18 +82,21 @@ export const Default = (props: NavigationProps): JSX.Element => {
   const list = Object.values(props.fields)
     .filter((element) => element)
     .map((element: Fields, key: number) => (
-      <NavigationList key={`${key}${element.Id}`} fields={element} relativeLevel={1} />
+      <NavigationList
+        key={`${key}${element.Id}`}
+        fields={element}
+        relativeLevel={1}
+        locale={contentLocale}
+      />
     ));
 
   return (
     <div className={`component navigation ${styles}`} id={id ? id : undefined}>
-      <label className="menu-mobile-navigate-wrapper">
-        <div className="component-content">
-          <nav>
-            <ul className="flex space-x-4">{list}</ul>
-          </nav>
-        </div>
-      </label>
+      <div className="component-content">
+        <nav>
+          <ul className="flex space-x-4">{list}</ul>
+        </nav>
+      </div>
     </div>
   );
 };
@@ -95,6 +115,7 @@ const NavigationList = (props: NavigationProps) => {
         key={`${index}${element.Id}`}
         fields={element}
         relativeLevel={props.relativeLevel + 1}
+        locale={props.locale}
       />
     ));
   }

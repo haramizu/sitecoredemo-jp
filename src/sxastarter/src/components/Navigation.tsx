@@ -45,7 +45,7 @@ const getLocale = function (props: SitecoreContextValue): string {
   let locale;
 
   if (!props.language || props.language === 'en') {
-    locale = '/';
+    locale = '';
   } else {
     locale = '/' + props.language;
   }
