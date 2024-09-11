@@ -1,5 +1,12 @@
 import React from 'react';
-import { Link as JssLink, Text, LinkField, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Link as JssLink,
+  Text,
+  LinkField,
+  TextField,
+  useSitecoreContext,
+  SitecoreContextValue,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 type ResultsFieldLink = {
   field: {
@@ -30,6 +37,7 @@ type LinkListItemProps = {
   index: number;
   total: number;
   field: LinkField;
+  locale: string;
 };
 
 const LinkListItem = (props: LinkListItemProps) => {
@@ -41,6 +49,7 @@ const LinkListItem = (props: LinkListItemProps) => {
   if (props.index + 1 == props.total) {
     className += ' last';
   }
+
   return (
     <li className={className}>
       <div className="field-link">
@@ -50,11 +59,28 @@ const LinkListItem = (props: LinkListItemProps) => {
   );
 };
 
+const getLocale = function (props: SitecoreContextValue): string {
+  let locale;
+
+  if (!props.language || props.language === process.env.DEFAULT_LANGUAGE) {
+    locale = '';
+  } else {
+    locale = '/' + props.language;
+  }
+
+  return locale;
+};
+
 export const Default = (props: LinkListProps): JSX.Element => {
+  const { sitecoreContext } = useSitecoreContext();
+
+  const contentLocale = getLocale(sitecoreContext);
+
   const datasource = props.fields?.data?.datasource;
   const styles = `component link-list ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
 
+  console.log(contentLocale);
   if (datasource) {
     const list = datasource.children.results
       .filter((element: ResultsFieldLink) => element?.field?.link)
@@ -64,6 +90,7 @@ export const Default = (props: LinkListProps): JSX.Element => {
           key={`${key}${element.field.link}`}
           total={datasource.children.results.length}
           field={element.field.link}
+          locale={contentLocale}
         />
       ));
 

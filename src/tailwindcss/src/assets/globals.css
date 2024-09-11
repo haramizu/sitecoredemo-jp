@@ -11,5 +11,6 @@
 /* Components */
 @import './components/Image.css';
 @import './components/ColumnSplitter.css';
+@import './components/LinkList.css';
 @import './components/RichText.css';
 @import './components/Navigation.css';

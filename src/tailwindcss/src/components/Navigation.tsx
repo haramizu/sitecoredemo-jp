@@ -43,7 +43,7 @@ const getNavigationText = function (props: NavigationProps): JSX.Element | strin
 const getLocale = function (props: SitecoreContextValue): string {
   let locale;
 
-  if (!props.language || props.language === 'en') {
+  if (!props.language || props.language === process.env.DEFAULT_LANGUAGE) {
     locale = '';
   } else {
     locale = '/' + props.language;

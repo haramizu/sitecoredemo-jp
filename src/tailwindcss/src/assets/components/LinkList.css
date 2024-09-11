@@ -1,0 +1,18 @@
+.component.link-list.global-menu {
+  padding: 10px 20px; /* メニュー全体にパディングを追加 */
+}
+
+.component.link-list.global-menu ul {
+  display: flex;
+  flex-wrap: nowrap; /* 横並び */
+  justify-content: space-between; /* 各項目を均等に配置 */
+}
+
+.component.link-list.global-menu ul li a:hover {
+  color: #f9e300; /* ホバー時にリンクの色を変更 */
+  text-decoration: none;
+}
+
+.component.link-list.global-menu ul li a {
+  color: #ffffff; /* リンクの色 */
+}
