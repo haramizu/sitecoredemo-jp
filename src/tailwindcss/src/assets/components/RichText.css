@@ -15,3 +15,8 @@
     @apply border-l-4 border-r-4 border-gray-500 my-4 mx-4;
   }
 }
+
+.component.rich-text.footer-navi-title {
+  @apply text-base text-indigo-800 font-bold;
+  @apply border-b border-gray-500 pb-2 mb-4;
+}

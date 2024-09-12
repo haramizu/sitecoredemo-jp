@@ -1,4 +1,9 @@
 @import './app.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&display=swap');
+
+html {
+  font-family: 'Noto Sans', 'Noto Sans Japanese', Arial, Helvetica, sans-serif;
+}
 
 @tailwind base;
 @tailwind components;
@@ -11,5 +16,6 @@
 /* Components */
 @import './components/Image.css';
 @import './components/ColumnSplitter.css';
+@import './components/LinkList.css';
 @import './components/RichText.css';
 @import './components/Navigation.css';
