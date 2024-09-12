@@ -53,7 +53,7 @@ const LinkListItem = (props: LinkListItemProps) => {
   return (
     <li className={className}>
       <div className="field-link">
-        <JssLink field={props.field} />
+        <JssLink field={props.field} href={`/${props.locale}${props.field.value.href}`} />
       </div>
     </li>
   );
