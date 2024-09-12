@@ -1,3 +1,4 @@
+/* Global menu */
 .component.link-list.global-menu {
   padding: 10px 20px; /* メニュー全体にパディングを追加 */
 }
@@ -5,17 +6,40 @@
 .component.link-list.global-menu ul {
   display: flex;
   flex-wrap: nowrap; /* 横並び */
-  justify-content: space-between; /* 各項目を均等に配置 */
+  justify-content: space-between;
 }
 
 .component.link-list.global-menu ul li a:hover {
-  color: #f9e300; /* ホバー時にリンクの色を変更 */
+  color: #f9e300;
   text-decoration: none;
 }
 
 .component.link-list.global-menu ul li a {
-  color: #ffffff; /* リンクの色 */
+  color: #ffffff;
 }
+
+/* global sub menu */
+
+.component.link-list.global-sub-menu ul {
+  @apply flex justify-end;
+  flex-wrap: nowrap;
+}
+
+.component.link-list.global-sub-menu ul li {
+  @apply mr-5; /* 各 li に 20px の右マージンを追加 (mr-5 = 1.25rem ≈ 20px) */
+}
+
+.component.link-list.global-sub-menu ul li a {
+  @apply text-xs;
+  color: #ffffff;
+}
+
+.component.link-list.global-sub-menu ul li a:hover {
+  color: #f9e300;
+  text-decoration: none;
+}
+
+/* footer link list */
 
 .component.link-list.footer-linklist {
   @apply text-sm text-gray-800;
