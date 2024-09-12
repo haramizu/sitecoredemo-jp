@@ -19,4 +19,5 @@
 
 .component.link-list.footer-linklist {
   @apply text-sm text-gray-800;
+  @apply leading-loose;
 }
