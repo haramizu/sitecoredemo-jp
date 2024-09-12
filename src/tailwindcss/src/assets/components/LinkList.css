@@ -16,3 +16,7 @@
 .component.link-list.global-menu ul li a {
   color: #ffffff; /* リンクの色 */
 }
+
+.component.link-list.footer-linklist {
+  @apply text-sm text-gray-800;
+}
