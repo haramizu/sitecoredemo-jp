@@ -80,7 +80,6 @@ export const Default = (props: LinkListProps): JSX.Element => {
   const styles = `component link-list ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
 
-  console.log(contentLocale);
   if (datasource) {
     const list = datasource.children.results
       .filter((element: ResultsFieldLink) => element?.field?.link)
