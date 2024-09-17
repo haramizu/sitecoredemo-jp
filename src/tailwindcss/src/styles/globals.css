@@ -21,3 +21,5 @@ html {
 @import './components/RichText.css';
 @import './components/Navigation.css';
 @import './components/LocaleSelector.css';
+@import './components/breadcrumb.css';
+@import './components/Title.css';

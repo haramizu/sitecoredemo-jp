@@ -1,0 +1,8 @@
+.component.title.page-title {
+  @apply pl-4 pt-5;
+  @apply border-b border-gray-400 pb-8 mb-9;
+}
+
+.component.title.page-title h1 {
+  @apply text-4xl;
+}
