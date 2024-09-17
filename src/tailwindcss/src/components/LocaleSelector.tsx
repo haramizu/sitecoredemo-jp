@@ -28,10 +28,9 @@ export const Default = (props: LocaleSelectorProps): JSX.Element => {
   };
 
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
+    <div className={`component localeselector`} id={id ? id : undefined}>
       <div className="component-content">
         <select onChange={handleLanguageChange} value={language || ''}>
-          <option value="">Select a language</option>
           {Object.keys(languages).map((key) => (
             <option key={key} value={key}>
               {languages[key as Language].label}
