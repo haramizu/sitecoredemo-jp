@@ -34,6 +34,8 @@
     "@sitecore-cloudsdk/events": "^0.3.0",
     "@sitecore-feaas/clientside": "^0.5.17",
     "@sitecore-jss/sitecore-jss-nextjs": "~22.0.0",
+    "@sitecore-search/react": "^2.6.0",
+    "@sitecore-search/ui": "^2.6.0",
     "@sitecore/components": "^1.1.10",
     "feed": "^4.2.2",
     "graphql": "~15.8.0",
@@ -54,6 +56,7 @@
     "@graphql-typed-document-node/core": "^3.2.0",
     "@sitecore-jss/sitecore-jss-cli": "~22.0.0",
     "@sitecore-jss/sitecore-jss-dev-tools": "~22.0.0",
+    "@sitecore-search/cli": "^2.6.0",
     "@types/node": "^18.11.18",
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.0.5",
@@ -94,6 +97,7 @@
     "scaffold": "ts-node --project tsconfig.scripts.json scripts/scaffold-component/index.ts",
     "start:connected": "cross-env NODE_ENV=development npm-run-all --serial bootstrap --parallel next:dev start:watch-components",
     "start:production": "cross-env-shell NODE_ENV=production npm-run-all --serial bootstrap next:build next:start",
-    "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-builder/index.ts --watch"
+    "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-builder/index.ts --watch",
+    "create-widget": "sc-search new-widget"
   }
 }

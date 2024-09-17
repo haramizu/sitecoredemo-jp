@@ -95,3 +95,20 @@ export const Default = (props: TitleProps): JSX.Element => {
     </ComponentContent>
   );
 };
+
+export const PageTitle = (props: TitleProps): JSX.Element => {
+  const datasource = props.fields?.data?.datasource || props.fields?.data?.contextItem;
+
+  const text: TextField = {
+    value: datasource?.field?.jsonValue?.value,
+    editable: datasource?.field?.jsonValue?.editable,
+  };
+
+  return (
+    <ComponentContent styles={props.params.styles} id={props.params.RenderingIdentifier}>
+      <h1>
+        <Text field={text} />
+      </h1>
+    </ComponentContent>
+  );
+};

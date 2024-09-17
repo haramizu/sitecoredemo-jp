@@ -36,7 +36,7 @@ export const Default = (props: BreadcrumbProps): JSX.Element => {
   if (data.item.ancestors.length > 0) {
     return (
       <>
-        <div className="component-content">
+        <div className="content breadcrumb m-4">
           {generateBreadcrumbList(data.item.ancestors, locale)}
         </div>
       </>
@@ -68,5 +68,5 @@ function generateBreadcrumbList(ancestors: Ancestor[], locale: string): JSX.Elem
   });
 
   // Wrap the list items with ul tags and return the JSX element
-  return <ul>{ancestorListItems}</ul>;
+  return <ul className="flex space-x-2">{ancestorListItems}</ul>;
 }
