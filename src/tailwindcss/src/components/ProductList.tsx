@@ -8,14 +8,20 @@ import {
 
 interface ProductField {
   id: string;
-  jsonValue: any;
+  jsonValue: {
+    value: string;
+    editable: string;
+  };
   name: string;
   value: string;
 }
 interface ProductProps {
   field: {
     id: string;
-    jsonValue: any;
+    jsonValue: {
+      value: string;
+      editable: string;
+    };
     name: string;
     value: string;
   };
@@ -70,26 +76,24 @@ export const Default = (props: ProductListProps): JSX.Element => {
 
 const ProductList = (props: ProductProps[]) => {
   const children: JSX.Element[] = [];
+  let titleContent: JSX.Element | null = null;
+  let imageContent: JSX.Element | null = null;
 
   for (const product of props) {
     for (const field of product.fields) {
       if (field.name === 'NavigationTitle') {
-        children.push(
-          <div key={field.id}>
-            {/* jsonValue を文字列として表示 */}
-            <JssRichText field={field.jsonValue} />
-          </div>
-        );
+        titleContent = <JssRichText field={field.jsonValue} />
       }
       if (field.name === 'Image') {
-        children.push(
-          <div key={field.id}>
-            {/* jsonValue を文字列として表示 */}
-            <JssImage field={field.jsonValue} />
-          </div>
-        );
+        imageContent = <JssImage field={field.jsonValue} />
       }
     }
+    children.push(
+      <div>
+        {titleContent}
+        {imageContent}
+      </div>
+    );
   }
 
   return <>{children}</>; // JSX エレメントを返す
