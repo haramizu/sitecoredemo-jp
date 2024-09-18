@@ -1,16 +1,21 @@
 import React from 'react';
-import { ComponentParams, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  ComponentParams,
+  TextField,
+  RichText as JssRichText,
+  Image as JssImage,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface ProductField {
   id: string;
-  jsonValue: JSON;
+  jsonValue: any;
   name: string;
   value: string;
 }
 interface ProductProps {
   field: {
     id: string;
-    jsonValue: JSON;
+    jsonValue: any;
     name: string;
     value: string;
   };
@@ -43,21 +48,12 @@ export const Default = (props: ProductListProps): JSX.Element => {
   const datasource = props.fields?.data?.datasource;
 
   if (datasource) {
-    let values = ``;
-
-    for (const result of datasource.children.results) {
-      for (const field of result.fields) {
-        console.log(field);
-        if (field.name === 'NavigationTitle') {
-          values = values + field.value;
-        }
-      }
-    }
+    const children = ProductList(datasource.children.results);
 
     return (
       <div className={styles} id={id ? id : undefined}>
         <div className="component-content">
-          <ul>{values}</ul>
+          <>{children}</>
         </div>
       </div>
     );
@@ -70,4 +66,31 @@ export const Default = (props: ProductListProps): JSX.Element => {
       </div>
     </div>
   );
+};
+
+const ProductList = (props: ProductProps[]) => {
+  const children: JSX.Element[] = [];
+
+  for (const product of props) {
+    for (const field of product.fields) {
+      if (field.name === 'NavigationTitle') {
+        children.push(
+          <div key={field.id}>
+            {/* jsonValue を文字列として表示 */}
+            <JssRichText field={field.jsonValue} />
+          </div>
+        );
+      }
+      if (field.name === 'Image') {
+        children.push(
+          <div key={field.id}>
+            {/* jsonValue を文字列として表示 */}
+            <JssImage field={field.jsonValue} />
+          </div>
+        );
+      }
+    }
+  }
+
+  return <>{children}</>; // JSX エレメントを返す
 };
