@@ -47,8 +47,9 @@ export const Default = (props: ProductListProps): JSX.Element => {
 
     for (const result of datasource.children.results) {
       for (const field of result.fields) {
+        console.log(field);
         if (field.name === 'NavigationTitle') {
-          values = values + `<p>` + field.value + `</p>`;
+          values = values + field.value;
         }
       }
     }
