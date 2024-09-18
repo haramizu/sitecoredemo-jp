@@ -82,10 +82,10 @@ const ProductList = (props: ProductProps[]) => {
   for (const product of props) {
     for (const field of product.fields) {
       if (field.name === 'NavigationTitle') {
-        titleContent = <JssRichText field={field.jsonValue} />
+        titleContent = <JssRichText field={field.jsonValue} />;
       }
       if (field.name === 'Image') {
-        imageContent = <JssImage field={field.jsonValue} />
+        imageContent = <JssImage field={field.jsonValue} />;
       }
     }
     children.push(
