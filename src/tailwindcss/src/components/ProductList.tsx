@@ -104,17 +104,17 @@ const ProductList = (props: ProductProps[], locale: string) => {
       if (field.name === 'NavigationTitle') {
         titleContent = <Text field={field.jsonValue} />;
       }
-      if (field.name === 'Image') {
+      if (field.name === 'CoverImage') {
         imageContent = <Image field={field.jsonValue} className="w-full h-full object-contain" />;
       }
     }
     children.push(
       <div className="card border rounded shadow min-h-[250px]">
         <div className="aspect-w-16 aspect-h-9">{imageContent}</div>
-        <div className="ml-8 mt-5 text-xl"><Link href={locale + product.url.path}>{titleContent}</Link></div>
+        <div className="ml-8 mr-8 mt-5 text-xl"><Link href={locale + product.url.path}>{titleContent}</Link></div>
       </div>
     );
   }
 
-  return <>{children}</>; // JSX エレメントを返す
+  return <>{children}</>;
 };
