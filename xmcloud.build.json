@@ -19,6 +19,12 @@
       "runCommand": "next:start"
     }
   },
+  "transforms": [
+    {
+      "xdtPath": "/xdts/",
+      "targetPath": "/"
+    }
+  ],
   "postActions": {
     "actions": {
       "warmUpCm": {
