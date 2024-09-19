@@ -116,9 +116,9 @@ const ProductList = (props: ProductProps[], locale: string) => {
       }
     }
     children.push(
-      <div className="card border rounded shadow min-h-[250px]">
+      <div className="card border rounded shadow min-h-[330px]">
         <div className="aspect-w-16 aspect-h-9">{imageContent}</div>
-        <div className="ml-8 mr-8 mt-5 text-xl">
+        <div className="ml-8 mr-8 mt-5 text-xl mb-5">
           <Link href={locale + product.url.path}>{titleContent}</Link>
         </div>
       </div>
