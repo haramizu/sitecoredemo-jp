@@ -81,3 +81,33 @@ export const WithText = (props: PromoProps): JSX.Element => {
 
   return <PromoDefaultComponent {...props} />;
 };
+
+export const HomePromo = (props: PromoProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  if (props.fields) {
+    return (
+      <div
+        className={`component promo ml-10 mr-10 mb-10 ${props.params.styles}`}
+        id={id ? id : undefined}
+      >
+        <div className="component-content card border rounded-lg shadow-lg flex w-[600px] h-[150px]">
+          <div className="field-promoicon w-1/2">
+            <JssImage field={props.fields.PromoIcon} className="w-full h-full object-cover" />
+          </div>
+          <div className="promo-text p-3 bg-gray-200 text-sm w-1/2">
+            <div className="field-promotext text-blue-600 mb-2">
+              <JssLink field={props.fields.PromoLink} />
+            </div>
+            <div>
+              <div className="field-promotext">
+                <JssRichText className="promo-text" field={props.fields.PromoText} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return <PromoDefaultComponent {...props} />;
+};

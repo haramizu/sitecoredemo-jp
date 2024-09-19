@@ -20,3 +20,7 @@
   @apply text-base text-indigo-800 font-bold;
   @apply border-b border-gray-500 pb-2 mb-4;
 }
+
+.component.rich-text.page-subtitle {
+  @apply font-bold ml-10 mt-4 mb-2;
+}

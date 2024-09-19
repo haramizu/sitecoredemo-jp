@@ -7,3 +7,6 @@
 .indent-bottom {
   @apply mb-3;
 }
+big.indent-bottom {
+  @apply mb-10;
+}
