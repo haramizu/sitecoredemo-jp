@@ -33,16 +33,14 @@ export const Default = (props: LocaleSelectorProps): JSX.Element => {
 
     let newPath = currentPath;
 
-    if (currentPath.includes('/ja-JP')) {
+    if (currentPath.startsWith('/ja-JP')) {
       newPath = currentPath.replace('/ja-JP', '');
-    } else if (currentPath.includes('/en')) {
-      newPath = currentPath.replace('/', '');
     }
 
     if (newLanguage === 'ja') {
       newPath = `/ja-JP${newPath}`;
     } else if (newLanguage === 'en') {
-      newPath = `/${newPath}`;
+      newPath = `${newPath}`;
     }
     router.push(newPath);
   };

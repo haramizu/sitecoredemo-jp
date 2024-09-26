@@ -62,7 +62,7 @@ const LinkListItem = (props: LinkListItemProps) => {
 const getLocale = function (props: SitecoreContextValue): string {
   let locale;
 
-  if (!props.language || props.language === process.env.DEFAULT_LANGUAGE) {
+  if (!props.language || props.language === `en`) {
     locale = '';
   } else {
     locale = '/' + props.language;
