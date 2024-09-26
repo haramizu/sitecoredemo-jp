@@ -6,3 +6,7 @@
 .component.title.page-title h1 {
   @apply text-4xl;
 }
+
+.component.title.news-title {
+  @apply text-4xl;
+}

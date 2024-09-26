@@ -28,3 +28,27 @@
 .component.rich-text.library-title {
   @apply font-bold p-4 text-white;
 }
+
+.component.rich-text.news-release {
+  @apply p-4;
+}
+
+.component.rich-text.news-release h3 {
+  @apply font-bold p-4 border-l-4 border-blue-900;
+}
+
+.component.rich-text.news-release h4 {
+  @apply p-4 text-2xl;
+}
+
+.component.rich-text.news-release p {
+  @apply p-2;
+}
+
+.component.rich-text.news-release ol {
+  @apply list-decimal list-outside;
+}
+
+.component.rich-text.news-release ol li {
+  @apply pl-2;
+}

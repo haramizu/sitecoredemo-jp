@@ -10,3 +10,9 @@
 big.indent-bottom {
   @apply mb-10;
 }
+
+.component.container-default.social-background {
+  @apply border-t border-gray-500 pb-2 mb-4;
+  @apply p-10;
+  @apply flex justify-end;
+}
