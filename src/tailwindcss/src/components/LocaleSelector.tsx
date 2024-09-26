@@ -40,7 +40,7 @@ export const Default = (props: LocaleSelectorProps): JSX.Element => {
     if (newLanguage === 'ja') {
       newPath = `/ja-JP${newPath}`;
     } else if (newLanguage === 'en') {
-      newPath = `${newPath}`;
+      newPath = `/en${newPath}`;
     }
     router.push(newPath);
   };
