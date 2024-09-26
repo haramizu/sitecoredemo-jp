@@ -16,6 +16,9 @@ module.exports = {
       pattern: /bg-/,
     },
     {
+      pattern: /grid-/,
+    },
+    {
       pattern: /hidden/,
       variants: ['sm', 'md', 'lg', 'xl', '2xl'],
     },
