@@ -1,0 +1,74 @@
+﻿---
+ID: "563d2061-e3c8-4a03-b397-efff992383d1"
+Parent: "8fd35d47-95b8-4cc1-bf7d-d0d56502b309"
+Template: "26c54307-6d31-46cf-a96b-70678c4fef7d"
+Path: /sitecore/system/Workflows/Standard Workflow/Draft/__OnSave/Auto Submit Action
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/submit.png
+- ID: "67918816-9524-4666-87b3-c07aff9cebd3"
+  Hint: Role Name
+  Value: |
+    sitecore\Sitecore Minimal Page Editor
+- ID: "ada004e1-3b87-476a-b44e-0c66606d0f47"
+  Hint: Type
+  Value: Sitecore.Workflows.Simple.AutoSubmitAction,Sitecore.Kernel
+- ID: "fa367915-b5a1-4e32-b35f-d7c9ecd399eb"
+  Hint: Next state
+  Value: "{602439BF-9979-4516-8E05-08A6D832C913}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080313T153332
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7cb343e2-578b-4dcb-a6c4-402eeebf470d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240927T073636Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 自動投稿アクション
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240927T072507Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f0cef2b-8fa6-4dfe-aa7d-91fb7a079cd5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240927T072507Z

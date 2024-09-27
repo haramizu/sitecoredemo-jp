@@ -1,0 +1,28 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "sites-init",
+  "items": {
+    "includes": [
+      {
+        "name": "SystemLanguages",
+        "path": "/sitecore/system/Languages/ja-JP",
+        "scope": "singleItem"
+      },
+      {
+        "name": "SystemLanguagesEnUs",
+        "path": "/sitecore/system/Languages/en-US",
+        "scope": "singleItem"
+      },
+      {
+        "name": "core-SystemLanguages",
+        "path": "/sitecore/system/Languages/ja-JP",
+        "scope": "singleItem",
+        "database": "core"
+      },
+      {
+        "name": "StandardWorkflow",
+        "path": "/sitecore/system/Workflows/Standard Workflow"
+      }
+    ]
+  }
+}
