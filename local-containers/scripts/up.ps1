@@ -127,6 +127,9 @@ dotnet sitecore index rebuild
 Write-Host "Pushing Default rendering host configuration" -ForegroundColor Green
 dotnet sitecore ser push -i nextjs-starter
 
+Write-Host "Pushing Demo standard items" -ForegroundColor Green
+dotnet sitecore ser push -i sites-init
+
 Write-Host "Pushing sitecore API key" -ForegroundColor Green 
 & $RepoRoot\local-containers\docker\build\cm\templates\import-templates.ps1 -RenderingSiteName "NextJs-Starter" -SitecoreApiKey $sitecoreApiKey
 
