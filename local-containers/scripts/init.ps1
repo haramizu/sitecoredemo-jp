@@ -108,6 +108,13 @@ Write-Host "Adding Windows hosts file entries..." -ForegroundColor Green
 Add-HostsEntry "xmcloudcm.localhost"
 Add-HostsEntry "www.nextjs-starter.localhost"
 
+################################
+# Create .env file
+################################
+
+Write-Host "Create .env file." -ForegroundColor Green
+Copy-Item ".\local-containers\.env.template" ".\local-containers\.env" -Force
+
 ###############################
 # Generate scjssconfig
 ###############################
