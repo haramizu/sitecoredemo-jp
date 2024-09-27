@@ -7,8 +7,7 @@
       "temp/*": ["src/temp/*"],
       "assets/*": ["src/assets/*"],
       "graphql-types": ["node_modules/@types/graphql-let/__generated__/__types__"],
-      "react": ["node_modules/react"],
-      "@/*": ["./src/*"]
+      "react": ["node_modules/react"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -31,19 +30,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "incremental": true,
-    "forceConsistentCasingInFileNames": false,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ]
+    "forceConsistentCasingInFileNames": false
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next-container/types/**/*.ts",
-    ".next/types/**/*.ts"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

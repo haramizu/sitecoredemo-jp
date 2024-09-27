@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   Link,
   LinkField,
-  SitecoreContextValue,
   Text,
   TextField,
   useSitecoreContext,
@@ -22,8 +21,8 @@ interface Fields {
 type NavigationProps = {
   params?: { [key: string]: string };
   fields: Fields;
+  handleClick: (event?: React.MouseEvent<HTMLElement>) => void;
   relativeLevel: number;
-  locale: string;
 };
 
 const getNavigationText = function (props: NavigationProps): JSX.Element | string {
@@ -40,31 +39,17 @@ const getNavigationText = function (props: NavigationProps): JSX.Element | strin
   return text;
 };
 
-const getLocale = function (props: SitecoreContextValue): string {
-  let locale;
-
-  if (!props.language || props.language === process.env.DEFAULT_LANGUAGE) {
-    locale = '';
-  } else {
-    locale = '/' + props.language;
-  }
-
-  return locale;
-};
-
 const getLinkField = (props: NavigationProps): LinkField => ({
   value: {
-    href: props.locale + props.fields.Href,
+    href: props.fields.Href,
     title: getLinkTitle(props),
     querystring: props.fields.Querystring,
   },
 });
 
 export const Default = (props: NavigationProps): JSX.Element => {
+  const [isOpenMenu, openMenu] = useState(false);
   const { sitecoreContext } = useSitecoreContext();
-
-  const contentLocale = getLocale(sitecoreContext);
-
   const styles =
     props.params != null
       ? `${props.params.GridParameters ?? ''} ${props.params.Styles ?? ''}`.trimEnd()
@@ -79,24 +64,45 @@ export const Default = (props: NavigationProps): JSX.Element => {
     );
   }
 
+  const handleToggleMenu = (event?: React.MouseEvent<HTMLElement>, flag?: boolean): void => {
+    if (event && sitecoreContext?.pageEditing) {
+      event.preventDefault();
+    }
+
+    if (flag !== undefined) {
+      return openMenu(flag);
+    }
+
+    openMenu(!isOpenMenu);
+  };
+
   const list = Object.values(props.fields)
     .filter((element) => element)
     .map((element: Fields, key: number) => (
       <NavigationList
         key={`${key}${element.Id}`}
         fields={element}
+        handleClick={(event: React.MouseEvent<HTMLElement>) => handleToggleMenu(event, false)}
         relativeLevel={1}
-        locale={contentLocale}
       />
     ));
 
   return (
     <div className={`component navigation ${styles}`} id={id ? id : undefined}>
-      <div className="component-content">
-        <nav>
-          <ul className="flex space-x-4">{list}</ul>
-        </nav>
-      </div>
+      <label className="menu-mobile-navigate-wrapper">
+        <input
+          type="checkbox"
+          className="menu-mobile-navigate"
+          checked={isOpenMenu}
+          onChange={() => handleToggleMenu()}
+        />
+        <div className="menu-humburger" />
+        <div className="component-content">
+          <nav>
+            <ul className="clearfix">{list}</ul>
+          </nav>
+        </div>
+      </label>
     </div>
   );
 };
@@ -114,18 +120,10 @@ const NavigationList = (props: NavigationProps) => {
       <NavigationList
         key={`${index}${element.Id}`}
         fields={element}
+        handleClick={props.handleClick}
         relativeLevel={props.relativeLevel + 1}
-        locale={props.locale}
       />
     ));
-  }
-
-  if (!props.fields.NavigationTitle) {
-    return null;
-  }
-
-  if (props.fields.NavigationTitle.value === '$name') {
-    return null;
   }
 
   return (
@@ -134,7 +132,11 @@ const NavigationList = (props: NavigationProps) => {
         className={`navigation-title ${children.length ? 'child' : ''}`}
         onClick={() => setActive(() => !active)}
       >
-        <Link field={getLinkField(props)} editable={sitecoreContext.pageEditing}>
+        <Link
+          field={getLinkField(props)}
+          editable={sitecoreContext.pageEditing}
+          onClick={props.handleClick}
+        >
           {getNavigationText(props)}
         </Link>
       </div>
