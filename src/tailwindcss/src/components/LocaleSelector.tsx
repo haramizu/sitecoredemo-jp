@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from 'react';
 import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
 import languages, { Language } from '@/constants/locales';
 import { LanguageContext, ILanguageContext } from '@/contexts/languageContext';
-import { useRouter } from 'next/router';
 
 interface LocaleSelectorProps {
   rendering: ComponentRendering & { params: ComponentParams };
@@ -13,7 +12,6 @@ export const Default = (props: LocaleSelectorProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   const { language, setLanguage } = useContext<ILanguageContext>(LanguageContext);
-  const router = useRouter();
 
   useEffect(() => {
     const savedLanguage = window.localStorage.getItem('lang') as Language | null;
@@ -40,9 +38,9 @@ export const Default = (props: LocaleSelectorProps): JSX.Element => {
     if (newLanguage === 'ja') {
       newPath = `/ja-JP${newPath}`;
     } else if (newLanguage === 'en') {
-      newPath = `/en${newPath}`;
+      newPath = `${newPath}`;
     }
-    router.push(newPath);
+    window.location.href = newPath;
   };
 
   return (
