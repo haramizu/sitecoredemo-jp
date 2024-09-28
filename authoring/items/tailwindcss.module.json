@@ -1,31 +1,31 @@
 {
-  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
-  "namespace": "Project.Tailwindcss",
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "tailwindcss",
   "items": {
     "includes": [
       {
         "name": "templatesProject",
-        "path": "/sitecore/templates/Project/Tailwindcss",
+        "path": "/sitecore/templates/Project/Sites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "templatesFeature",
-        "path": "/sitecore/templates/Feature/Tailwindcss",
+        "path": "/sitecore/templates/Feature/Sites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "branchesFeature",
-        "path": "/sitecore/templates/Branches/Feature/Tailwindcss",
+        "path": "/sitecore/templates/Branches/Feature/Sites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "modules",
-        "path": "/sitecore/system/Settings/Feature/Tailwindcss",
+        "path": "/sitecore/system/Settings/Feature/Sites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "projectMediaFolders",
-        "path": "/sitecore/Media Library/Project/Tailwindcss",
+        "path": "/sitecore/Media Library/Project/Sites",
         "rules": [
           {
             "path": "/shared",
@@ -41,33 +41,33 @@
       },
       {
         "name": "layoutsFeature",
-        "path": "/sitecore/Layout/Layouts/Feature/Tailwindcss",
+        "path": "/sitecore/Layout/Layouts/Feature/Sites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "projectRenderingsFeature",
-        "path": "/sitecore/layout/Renderings/Feature/Tailwindcss",
+        "path": "/sitecore/layout/Renderings/Feature/Sites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "projectRenderings",
-        "path": "/sitecore/Layout/Renderings/Project/Tailwindcss",
+        "path": "/sitecore/Layout/Renderings/Project/Sites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "projectPlaceholderSettings",
-        "path": "/sitecore/Layout/Placeholder Settings/Project/Tailwindcss",
+        "path": "/sitecore/Layout/Placeholder Settings/Project/Sites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "tenantRoot",
-        "path": "/sitecore/content/Tailwindcss",
+        "path": "/sitecore/content/Sites",
         "scope": "SingleItem",
         "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "site",
-        "path": "/sitecore/content/Tailwindcss/Tailwindcss",
+        "path": "/sitecore/content/Sites/Tailwindcss",
         "rules": [
           {
             "path": "/home",
