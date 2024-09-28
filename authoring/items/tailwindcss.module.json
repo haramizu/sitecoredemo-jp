@@ -4,69 +4,7 @@
   "items": {
     "includes": [
       {
-        "name": "templatesProject",
-        "path": "/sitecore/templates/Project/Sites",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "templatesFeature",
-        "path": "/sitecore/templates/Feature/Sites",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "branchesFeature",
-        "path": "/sitecore/templates/Branches/Feature/Sites",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "modules",
-        "path": "/sitecore/system/Settings/Feature/Sites",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "projectMediaFolders",
-        "path": "/sitecore/Media Library/Project/Sites",
-        "rules": [
-          {
-            "path": "/shared",
-            "scope": "SingleItem",
-            "allowedPushOperations": "CreateOnly"
-          },
-          {
-            "path": "/Tailwindcss",
-            "scope": "SingleItem",
-            "allowedPushOperations": "CreateOnly"
-          }
-        ]
-      },
-      {
-        "name": "layoutsFeature",
-        "path": "/sitecore/Layout/Layouts/Feature/Sites",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "projectRenderingsFeature",
-        "path": "/sitecore/layout/Renderings/Feature/Sites",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "projectRenderings",
-        "path": "/sitecore/Layout/Renderings/Project/Sites",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "projectPlaceholderSettings",
-        "path": "/sitecore/Layout/Placeholder Settings/Project/Sites",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "tenantRoot",
-        "path": "/sitecore/content/Sites",
-        "scope": "SingleItem",
-        "allowedPushOperations": "CreateAndUpdate"
-      },
-      {
-        "name": "site",
+        "name": "tailwindcss",
         "path": "/sitecore/content/Sites/Tailwindcss",
         "rules": [
           {
