@@ -11,6 +11,9 @@ SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: "{C2DC4690-AF44-48C7-BB21-90D1AD246732}"
+- ID: "1864e99d-c29a-40bf-96e0-b3e7896a013b"
+  Hint: UseLanguageSpecificLayout
+  Value: 
 - ID: "300fb7a0-b27f-44dd-9af0-b37a19723e0e"
   Hint: RouteTemplateName
   Value: Settings Route
@@ -35,6 +38,9 @@ SharedFields:
 - ID: "a7bbad73-b933-49ff-95c8-1c269cb35e7c"
   Hint: DictionaryPath
   Value: "{8D18C9ED-D470-4C9C-959B-5CC4551E567E}"
+- ID: "ad84cc6b-32ef-49d8-9326-916976cb2520"
+  Hint: Grid Mapping
+  Value: "%7bFE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3%7d%3d%257B9CA06BD0-CD73-4718-9A3D-D000D07EC771%257D"
 - ID: "af332c24-fe17-41e7-8caf-8e64c588fe72"
   Hint: EditingTheme
   Value: "{3BCAB9EF-1E4F-4C23-B452-783BB82AA686}"
@@ -71,11 +77,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c9a8a27d-5ffd-4dff-bd7c-6898c31e04d7"
+      Value: "d7967a85-bfad-4ddc-bb7b-a9e91069efe4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240928T020056Z
+      Value: 20240928T021914Z
