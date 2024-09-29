@@ -10,6 +10,7 @@ SharedFields:
   Value: |
     {1DEB067F-0BB1-405E-94F5-2ABB537A6160}
     {4956263D-1195-4D6E-931B-800EA625FF6F}
+    {E9703519-6156-451A-90C1-C622C1B04C16}
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{3A748197-A45F-4B5C-BC1A-E350F433F9E3}"
@@ -31,11 +32,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "424e656f-49bd-4ada-81cc-1a8726131052"
+      Value: "77760f9c-e3d5-4e1b-afd3-a09cacc1c544"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240928T020103Z
+      Value: 20240929T040757Z
