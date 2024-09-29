@@ -95,6 +95,11 @@
         "name": "sites-system-StandardWorkflow",
         "path": "/sitecore/system/Workflows/Standard Workflow",
         "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "customize-LinkList",
+        "path": "/sitecore/layout/Renderings/Feature/JSS Experience Accelerator/Navigation/LinkList",
+        "scope": "singleItem"
       }
     ]
   }
