@@ -7,6 +7,7 @@
 # Environment file .env
 /local-containers/.env
 
+/headapps/tailwindcss.old
 # Ephemeral index caches used by serialization, do not commit
 .scindex
 
@@ -47,3 +48,4 @@ _ReSharper*/
 packages/
 
 .DS_Store
+
