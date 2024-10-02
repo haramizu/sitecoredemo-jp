@@ -18,7 +18,12 @@
 
 4. Create Edge token and [query from edge](#query-edge)
 
----
+## How to use it
+
+Please check my blog article
+
+- https://haramizu.com/en-US/blog/2024/10/02/sitecore-demo-jp-2024
+- https://haramizu.com/ja-JP/blog/2024/10/02/sitecore-demo-jp-2024 (日本語)
 
 ## About this Solution
 
