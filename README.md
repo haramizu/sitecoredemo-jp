@@ -25,6 +25,10 @@ Please check my blog article
 - https://haramizu.com/en-US/blog/2024/10/02/sitecore-demo-jp-2024
 - https://haramizu.com/ja-JP/blog/2024/10/02/sitecore-demo-jp-2024 (日本語)
 
+Sample Site
+
+- https://github.com/haramizu/sitecoredemo-jp-content
+
 ## About this Solution
 
 This solution is designed to help developers learn and get started quickly
