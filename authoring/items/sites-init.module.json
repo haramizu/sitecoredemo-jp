@@ -15,12 +15,12 @@
       },
       {
         "name": "sites-templates-Branches-Feature",
-        "path": "/sitecore/templates/Branches/Feature/Sites",
+        "path": "/sitecore/templates/Branches/Project/Sites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "sites-system",
-        "path": "/sitecore/system/Settings/Feature/Sites",
+        "path": "/sitecore/system/Settings/Project/Sites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {

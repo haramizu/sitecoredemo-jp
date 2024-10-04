@@ -1,6 +1,6 @@
 ﻿---
-ID: "1834c58d-e489-471e-b28a-57eb03dfe54f"
-Parent: "602439bf-9979-4516-8e05-08a6d832c913"
+ID: "781483a5-49ac-4bfd-98f8-afc1221d347f"
+Parent: "151d7791-b63a-479f-b156-f5422443d5de"
 Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
 Path: /sitecore/system/Workflows/Standard Workflow/Awaiting Approval/Approve
 SharedFields:
@@ -9,7 +9,11 @@ SharedFields:
   Value: office/16x16/check.png
 - ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
   Hint: Next state
-  Value: "{1A6011C9-0274-4A64-B89A-5BF06A3518BE}"
+  Value: "{32240B0A-BD94-4D83-9A09-44B96B8F6DF2}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pd|+workflowCommand:execute|pe|+workflowCommand:execute|
 Languages:
 - Language: en
   Versions:
@@ -17,22 +21,47 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240927T073715Z
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\shinichi.haramizu@sitecore.com
+      Value: 20241004T022302Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3a386aca-3259-479b-9430-a873a60e48dd"
+      Value: "1c6a3fbe-238f-48a8-943c-d541ad8dce06"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240927T073814Z
+      Value: 20241004T022341Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 承認
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241004T021207Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ae2a5cc8-6a7a-4963-a1ad-c3192eabf75f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241004T021207Z

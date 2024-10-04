@@ -1,8 +1,8 @@
 ﻿---
-ID: "21a49fe6-6746-4816-b86a-704b2345a3a3"
-Parent: "ad71facc-3c23-4df8-a427-672020db5612"
-Template: "85adbf5b-e836-4932-a333-fe0f9fa1ed1e"
-Path: /sitecore/templates/Branches/Feature/Sites
+ID: "9e0b67ec-bf15-4f11-89d8-dd91ef73e169"
+Parent: "a1f6469d-16e1-4a5f-9e49-1aad869a5d11"
+Template: "2f5f8343-2a18-46a4-92a1-0f7ab0452741"
+Path: /sitecore/templates/Branches/Project/Sites
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240928T020336Z
+      Value: 20241004T021729Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0a435d87-1de7-4b1f-879f-21a60a93b822"
+      Value: "f7c79947-9738-483b-bc61-20243739c698"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240928T020336Z
+      Value: 20241004T021729Z
