@@ -1,7 +1,7 @@
 ﻿---
-ID: "540aed2b-fb16-4611-8a09-3bd1479da2e1"
-Parent: "ca040e83-6176-4325-a5fd-99b567c27691"
-Template: "ca040e83-6176-4325-a5fd-99b567c27691"
+ID: "0303b71b-70e7-4e09-8ef6-094427f40747"
+Parent: "6cae87a2-b563-4828-bad0-535eaf9929fd"
+Template: "6cae87a2-b563-4828-bad0-535eaf9929fd"
 Path: /sitecore/templates/Project/Sites/Headless Tenant/__Standard Values
 Languages:
 - Language: en
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240928T020035Z
+      Value: 20241004T021728Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bf078710-a5b2-4b94-a856-3273ebc020ec"
+      Value: "a61517d4-1b34-4e8f-9559-a212e7acd2d0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240928T020035Z
+      Value: 20241004T021728Z

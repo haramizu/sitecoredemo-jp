@@ -1,6 +1,6 @@
 ﻿---
-ID: "400e5e00-9962-4f38-b999-b72278757ca7"
-Parent: "1834c58d-e489-471e-b28a-57eb03dfe54f"
+ID: "3e15f647-2ce9-4a51-afe1-cbeb5909ea40"
+Parent: "781483a5-49ac-4bfd-98f8-afc1221d347f"
 Template: "419f8ffb-2713-4cec-86a7-7585a727fe25"
 Path: /sitecore/system/Workflows/Standard Workflow/Awaiting Approval/Approve/Validation Action
 SharedFields:
@@ -36,14 +36,14 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "757434cf-64d2-4536-a0c0-48820a24bc9c"
+      Value: "d79c14fe-241e-4a0f-acb5-1c643306b3bb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240927T073747Z
+      Value: 20241004T022302Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
@@ -54,7 +54,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240927T072507Z
+      Value: 20241004T021207Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -65,11 +65,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8f0cef2b-8fa6-4dfe-aa7d-91fb7a079cd5"
+      Value: "ae2a5cc8-6a7a-4963-a1ad-c3192eabf75f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240927T072507Z
+      Value: 20241004T021207Z

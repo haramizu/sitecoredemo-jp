@@ -1,9 +1,12 @@
 ﻿---
-ID: "fe10dce5-c600-46c0-a0bb-d3ec3f544608"
-Parent: "1a6011c9-0274-4a64-b89a-5bf06a3518be"
+ID: "7c8b5a48-ebe7-45a6-a435-fa5c3f501c92"
+Parent: "32240b0a-bd94-4d83-9a09-44b96b8f6df2"
 Template: "66882e97-c8aa-4e37-8901-7a8aa35ed2ed"
 Path: /sitecore/system/Workflows/Standard Workflow/Approved/Auto Publish
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/16x16/earth_add.png
 - ID: "1507131d-cee3-49e9-af32-de5403a37b49"
   Hint: Parameters
   Value: deep=1&smart=1
@@ -17,22 +20,51 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240927T073317Z
+      Value: 20241004T022302Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\shinichi.haramizu@sitecore.com
+        sitecore\admin
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "52acc6f9-302e-4e4c-b812-971c2fad217d"
+      Value: "1a4682f0-da4b-4871-93fc-417a95e15687"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240927T073331Z
+      Value: 20241004T022302Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 自動パブリッシュ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241004T021207Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ae2a5cc8-6a7a-4963-a1ad-c3192eabf75f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241004T021207Z
