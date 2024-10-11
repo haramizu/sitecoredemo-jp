@@ -1,0 +1,106 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "sites-init",
+  "items": {
+    "includes": [
+      {
+        "name": "sites-templates-Project",
+        "path": "/sitecore/templates/Project/Sites",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "sites-templates-Feature",
+        "path": "/sitecore/templates/Feature/Sites",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "sites-templates-Branches-Feature",
+        "path": "/sitecore/templates/Branches/Project/Sites",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "sites-system",
+        "path": "/sitecore/system/Settings/Project/Sites",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "sites-MediaFolders",
+        "path": "/sitecore/Media Library/Project/Sites",
+        "rules": [
+          {
+            "path": "/shared",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Tailwindcss",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          }
+        ]
+      },
+      {
+        "name": "sites-layoutsFeature",
+        "path": "/sitecore/Layout/Layouts/Feature/Sites",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "sites-RenderingsFeature",
+        "path": "/sitecore/layout/Renderings/Feature/Sites",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "sites-Renderings-Project",
+        "path": "/sitecore/Layout/Renderings/Project/Sites",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "sites-PlaceholderSettings",
+        "path": "/sitecore/Layout/Placeholder Settings/Project/Sites",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "sites-tenantRoot",
+        "path": "/sitecore/content/Sites",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "Languages",
+        "path": "/sitecore/system/Languages",
+        "rules": [
+          {
+            "path": "/ja-JP",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/en-US",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
+        "name": "core-Languages",
+        "path": "/sitecore/system/Languages/ja-JP",
+        "scope": "singleItem",
+        "database": "core"
+      },
+      {
+        "name": "sites-system-StandardWorkflow",
+        "path": "/sitecore/system/Workflows/Standard Workflow",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "customize-LinkList",
+        "path": "/sitecore/layout/Renderings/Feature/JSS Experience Accelerator/Navigation/LinkList",
+        "scope": "singleItem"
+      }
+    ]
+  }
+}
