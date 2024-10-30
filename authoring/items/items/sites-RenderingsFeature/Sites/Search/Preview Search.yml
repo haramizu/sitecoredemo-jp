@@ -1,22 +1,21 @@
 ﻿---
-ID: "179b1dfe-edc0-4263-a3ce-4e313554e888"
-Parent: "9fba33d4-2f4f-486a-9f98-1d5823a48268"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Sites/Rendering Parameters/YouTube
+ID: "16e3d67a-1aa5-476d-8d78-0107071322d9"
+Parent: "dfb5a58f-13de-4c16-82ff-d6202b5169ce"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/Sites/Search/Preview Search
 SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: PreviewSearch
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: office/32x32/video_camera.png
-- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
-  Hint: __Base template
-  Value: |
-    {8CA06D6A-B353-44E8-BC31-B528C7306971}
-    {FF75632A-03ED-4D31-B42A-1EEE45E5147F}
-    {D959F476-2A2C-40C6-81F5-FB75342BBFB9}
-    {6DA8A00F-473E-487D-BEFE-6834350D5B67}
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{451FE893-DCFF-440E-B6A7-9C59DD7671E2}"
+  Value: "SXA/16x16/search-box.png"
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/Sites/Data Source/Preview Search
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{697024FC-9E39-4934-A4D7-FD75821F9215}"
 Languages:
 - Language: en
   Versions:
@@ -24,7 +23,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20241030T063207Z
+      Value: 20241030T071803Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -35,11 +34,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ee725b8f-2d56-41db-8652-4e3bf15a4c01"
+      Value: "55b56beb-ca1f-46db-9bd2-52d6dc31e591"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20241030T065041Z
+      Value: 20241030T071952Z

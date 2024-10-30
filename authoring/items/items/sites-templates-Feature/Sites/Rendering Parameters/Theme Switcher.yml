@@ -1,12 +1,12 @@
 ﻿---
-ID: "179b1dfe-edc0-4263-a3ce-4e313554e888"
+ID: "046f9e01-3db9-4a87-a3e3-54c22fd6fa76"
 Parent: "9fba33d4-2f4f-486a-9f98-1d5823a48268"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Sites/Rendering Parameters/YouTube
+Path: /sitecore/templates/Feature/Sites/Rendering Parameters/Theme Switcher
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: office/32x32/video_camera.png
+  Value: Office/32x32/contrast.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -16,7 +16,7 @@ SharedFields:
     {6DA8A00F-473E-487D-BEFE-6834350D5B67}
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{451FE893-DCFF-440E-B6A7-9C59DD7671E2}"
+  Value: "{054AD9F4-87DD-42F2-9261-B0FF90195464}"
 Languages:
 - Language: en
   Versions:
@@ -24,7 +24,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20241030T063207Z
+      Value: 20241030T070328Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -35,11 +35,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ee725b8f-2d56-41db-8652-4e3bf15a4c01"
+      Value: "e281483a-913b-449f-b471-e118fa32ced9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20241030T065041Z
+      Value: 20241030T070741Z
