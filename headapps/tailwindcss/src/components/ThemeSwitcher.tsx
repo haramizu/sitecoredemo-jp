@@ -1,19 +1,24 @@
-import React from 'react';
-import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
+import { useState, useEffect } from 'react';
 
-interface ThemeSwitcherProps {
-  rendering: ComponentRendering & { params: ComponentParams };
-  params: ComponentParams;
-}
+export const Default = (): JSX.Element => {
+  const [darkMode, setDarkMode] = useState(false);
 
-export const Default = (props: ThemeSwitcherProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [darkMode]);
 
   return (
-    <div className={`component ${props.params.styles}`} id={id ? id : undefined}>
-      <div className="component-content">
-        <p>ThemeSwitcher Component</p>
+    <>
+      <button onClick={() => setDarkMode(!darkMode)}>
+        {darkMode ? 'ライトモード' : 'ダークモード'}
+      </button>
+      <div className="bg-white dark:bg-gray-800 text-black dark:text-white">
+        <p>このテキストはテーマに応じて色が変わります。</p>
       </div>
-    </div>
+    </>
   );
 };

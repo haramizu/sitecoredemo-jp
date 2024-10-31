@@ -12,7 +12,7 @@ SharedFields:
   Value: office/32x32/contrast.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Sites/Data Source/Theme Switcher
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{046F9E01-3DB9-4A87-A3E3-54C22FD6FA76}"
@@ -34,11 +34,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a860eef5-8ee1-40fe-bef4-124894d7cfb3"
+      Value: "a6c1caa8-53af-4c0e-b437-b86e703df3b0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20241030T070711Z
+      Value: 20241031T081642Z
