@@ -1,0 +1,68 @@
+﻿---
+ID: "9965c778-4bc3-4294-884c-5db5380dfa92"
+Parent: "efd90fb9-8876-4460-9d60-1bbf91655ac5"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/Sites/Navigation/Breadcrumb
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: Breadcrumb
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: SXA/16x16/breadcrumb.png
+- ID: "17bb046a-a32a-41b3-8315-81217947611b"
+  Hint: ComponentQuery
+  Value: |
+    fragment breadcrumbFields on Item {
+        field(name: "NavigationTitle") {
+          ... on TextField {
+            value
+          }
+        }
+      url {
+        path
+      }
+    }
+    query BreadcrumbQuery($contextItem: String!, $language: String!)  {
+      # Assume the item id is available on the page
+      item(path: $contextItem, language: $language) {
+        ancestors(
+          hasLayout: true
+          includeTemplateIDs: "EB402B39-57B6-4ABC-B488-06BB63FAC1C6"
+        ) {
+          ...breadcrumbFields
+        }
+      }
+    }
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{9266507A-E87D-456D-80E3-861664D8A87E}"
+- ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
+  Hint: OtherProperties
+  Value: IsRenderingsWithDynamicPlaceholders=true
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241017T050535Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57035fdb-5530-4c2a-a90f-06b48e631217"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\shinichi.haramizu@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241017T053425Z

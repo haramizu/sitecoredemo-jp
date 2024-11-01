@@ -14,9 +14,19 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name": "sites-templates-Feature-sites",
+        "path": "/sitecore/system/Settings/Feature/Sites",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
         "name": "sites-templates-Branches-Feature",
         "path": "/sitecore/templates/Branches/Project/Sites",
-        "allowedPushOperations": "CreateUpdateAndDelete"
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "sites-templates-Branches-Sites",
+        "path": "/sitecore/templates/Branches/Feature/Sites",
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
         "name": "sites-system",
@@ -33,9 +43,8 @@
             "allowedPushOperations": "CreateOnly"
           },
           {
-            "path": "/Tailwindcss",
-            "scope": "SingleItem",
-            "allowedPushOperations": "CreateOnly"
+            "path": "*",
+            "scope": "Ignored"
           }
         ]
       },
