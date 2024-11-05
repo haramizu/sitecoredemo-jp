@@ -62,12 +62,12 @@ export const Default = (props: LanguageSelectorProps): JSX.Element => {
           <IoIosArrowDown className="ml-2" />
         )}
         {showLanguageDropdown && (
-          <div className="absolute top-full mt-2 language-dropdown z-50">
+          <div className="absolute top-full mt-2 language-dropdown z-50 bg-white dark:bg-gray-900 border rounded shadow-lg">
             {availableLanguages.map((lang) => (
               <span
                 key={lang.code}
                 onClick={() => changeLanguage(lang.code)}
-                className="block px-4 py-2 hover:bg-gray-200 cursor-pointer"
+                className="block px-4 py-2 hover:bg-gray-200 hover:dark:bg-gray-800 cursor-pointer"
               >
                 {lang.label}
               </span>
