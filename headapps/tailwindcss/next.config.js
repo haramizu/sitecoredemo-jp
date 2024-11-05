@@ -43,6 +43,16 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'sitecoredemojp.sitecore*.**',
+        port: '',
+      },
+      {
+        protocol: 'http',
+        hostname: 'cm',
+        port: '',
+      },
+      {
+        protocol: 'https',
         hostname: 'feaas*.blob.core.windows.net',
         port: '',
       },
