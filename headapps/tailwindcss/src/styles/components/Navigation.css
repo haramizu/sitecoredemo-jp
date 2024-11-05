@@ -13,3 +13,23 @@
     @apply hover:no-underline;
   }
 }
+
+.component.navigation.navigation-fat {
+  @apply text-white;
+}
+
+.component.navigation.navigation-fat .level1 {
+  @apply mr-5 text-xl;
+
+  a {
+    @apply hover:no-underline;
+  }
+}
+
+.component.navigation.navigation-fat .level2 {
+  @apply mr-5 text-base list-disc list-outside ml-4;
+
+  a {
+    @apply hover:no-underline;
+  }
+}
