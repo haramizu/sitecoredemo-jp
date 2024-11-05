@@ -1,7 +1,16 @@
 import { useState, useEffect } from 'react';
+import { GoSun } from 'react-icons/go';
+import { FaMoon } from 'react-icons/fa';
+import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
 
-export const Default = (): JSX.Element => {
+interface ThemeSwitherProps {
+  rendering: ComponentRendering & { params: ComponentParams };
+  params: ComponentParams;
+}
+
+export const Default = (props: ThemeSwitherProps): JSX.Element => {
   const [darkMode, setDarkMode] = useState(false);
+  const id = props.params.RenderingIdentifier;
 
   useEffect(() => {
     if (darkMode) {
@@ -12,13 +21,10 @@ export const Default = (): JSX.Element => {
   }, [darkMode]);
 
   return (
-    <>
-      <button onClick={() => setDarkMode(!darkMode)}>
-        {darkMode ? 'ライトモード' : 'ダークモード'}
-      </button>
-      <div className="bg-white dark:bg-gray-800 text-black dark:text-white">
-        <p>このテキストはテーマに応じて色が変わります。</p>
+    <div className={`component ${props.params.Styles}`} id={id ? id : undefined}>
+      <div className="component-content">
+        <button onClick={() => setDarkMode(!darkMode)}>{darkMode ? <GoSun /> : <FaMoon />}</button>
       </div>
-    </>
+    </div>
   );
 };
