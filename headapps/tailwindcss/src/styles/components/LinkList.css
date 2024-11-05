@@ -1,6 +1,6 @@
 /* Global menu */
 .component.link-list.global-menu {
-  padding: 10px 20px; /* メニュー全体にパディングを追加 */
+  padding: 10px 20px;
 }
 
 .component.link-list.global-menu ul {

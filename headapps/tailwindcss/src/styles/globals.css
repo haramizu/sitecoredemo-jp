@@ -10,6 +10,11 @@ html {
   font-family: 'Noto Sans', 'Noto Sans Japanese', Arial, Helvetica, sans-serif;
 }
 
+.dark {
+  background-color: #2d3748;
+  color: #ffffff;
+}
+
 /* Pages Style - Common */
 @import './common/alignment.css';
 @import './common/spacing.css';

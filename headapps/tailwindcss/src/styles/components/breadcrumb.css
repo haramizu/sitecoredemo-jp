@@ -1,7 +1,6 @@
-/* Tailwind CSS カスタムスタイルシート */
 .breadcrumb li:not(:last-child)::after {
   content: '/';
-  margin: 0 0.5rem; /* 区切りとアイテム間のスペース */
+  margin: 0 0.5rem;
   @apply text-gray-400;
 }
 

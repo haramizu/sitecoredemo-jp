@@ -7,12 +7,23 @@
 .indent-bottom {
   @apply mb-3;
 }
-big.indent-bottom {
-  @apply mb-10;
+
+.container-dark-background {
+  @apply bg-gray-800;
+  @apply text-white;
 }
 
-.component.container-default.social-background {
-  @apply border-t border-gray-500 pb-2 mb-4;
-  @apply p-10;
-  @apply flex justify-end;
+.container-color-background {
+  @apply bg-blue-400;
+  @apply text-gray-800;
+}
+
+.container-gray-background {
+  @apply bg-gray-300;
+  @apply text-gray-800;
+}
+
+.container-clean-background {
+  @apply bg-white;
+  @apply text-gray-800;
 }
