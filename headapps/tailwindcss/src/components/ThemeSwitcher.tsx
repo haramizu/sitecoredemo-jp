@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react';
 import { GoSun } from 'react-icons/go';
 import { FaMoon } from 'react-icons/fa';
-import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentParams } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface ThemeSwitherProps {
-  rendering: ComponentRendering & { params: ComponentParams };
   params: ComponentParams;
 }
 
