@@ -1,6 +1,15 @@
 .component.navigation.position-right .flex {
   justify-content: flex-end;
 }
+
 .component.navigation.position-center .flex {
   justify-content: center;
+}
+
+.component.navigation.navigation-main .navigation-title {
+  @apply text-xl font-semibold text-gray-800 hover:text-blue-600 hover:dark:text-blue-400 dark:text-gray-300 mr-3;
+
+  a {
+    @apply hover:no-underline;
+  }
 }

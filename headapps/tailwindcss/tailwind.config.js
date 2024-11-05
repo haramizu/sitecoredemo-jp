@@ -33,6 +33,9 @@ module.exports = {
       colors: {
         customBlue: 'rgb(0, 79, 155)',
       },
+      fontFamily: {
+        sans: ['Noto Sans JP', 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif'],
+      },
     },
   },
   plugins: [],
