@@ -12,7 +12,7 @@ SharedFields:
   Value: "SXA/16x16/language-selector.png"
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Sites/Data Source/Language Selector
+  Value: 
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{319E6002-E57E-4EB4-BCB0-8D3B12870A34}"
@@ -34,11 +34,11 @@ Languages:
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e5c378fc-d25e-4a4b-a083-7ba115a4ff43"
+      Value: "1526e9cc-f450-4717-baf9-262a731e3bad"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\shinichi.haramizu@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20241030T070654Z
+      Value: 20241105T012616Z
