@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&display=swap');
 
 html {
-  font-family: 'Noto Sans', 'Noto Sans Japanese', Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans JP', 'Noto Sans', Arial, Helvetica, sans-serif;
 }
 
 .dark {
@@ -20,11 +20,11 @@ html {
 @import './common/spacing.css';
 
 /* Components */
-@import './components/Image.css';
-@import './components/ColumnSplitter.css';
-@import './components/LinkList.css';
-@import './components/RichText.css';
-@import './components/Navigation.css';
-@import './components/LocaleSelector.css';
 @import './components/breadcrumb.css';
+@import './components/ColumnSplitter.css';
+@import './components/Image.css';
+@import './components/LanguageSelector.css';
+@import './components/LinkList.css';
+@import './components/Navigation.css';
+@import './components/RichText.css';
 @import './components/Title.css';

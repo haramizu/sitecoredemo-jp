@@ -1,11 +1,14 @@
 .position-left {
-  @apply text-left;
+  @apply flex;
+  @apply justify-start;
 }
 
 .position-right {
-  @apply text-right;
+  @apply flex;
+  @apply justify-end;
 }
 
 .position-center {
-  @apply text-center;
+  @apply flex;
+  @apply justify-center;
 }

@@ -52,7 +52,7 @@ export const Default = (props: LanguageSelectorProps): JSX.Element => {
       className={`component ${props.params.Styles}`}
       onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
     >
-      <div className="component-content language-switcher flex items-center relative">
+      <div className="component-content language-selector flex items-center relative">
         <span className="selected-language">
           {availableLanguages.find((lang) => lang.code === sitecoreContext.language)?.label}
         </span>
@@ -62,12 +62,12 @@ export const Default = (props: LanguageSelectorProps): JSX.Element => {
           <IoIosArrowDown className="ml-2" />
         )}
         {showLanguageDropdown && (
-          <div className="absolute top-full mt-2 language-dropdown z-50">
+          <div className="language-dropdown absolute top-full mt-2">
             {availableLanguages.map((lang) => (
               <span
                 key={lang.code}
                 onClick={() => changeLanguage(lang.code)}
-                className="block px-4 py-2 hover:bg-gray-200 cursor-pointer"
+                className="language-list block cursor-pointer"
               >
                 {lang.label}
               </span>
