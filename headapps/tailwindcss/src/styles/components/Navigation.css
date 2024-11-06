@@ -1,6 +1,31 @@
 .component.navigation.position-right .flex {
   justify-content: flex-end;
 }
+
 .component.navigation.position-center .flex {
   justify-content: center;
+}
+
+.component.navigation.navigation-main .navigation-title {
+  @apply text-xl font-semibold text-gray-800 hover:text-blue-600 hover:dark:text-blue-400 dark:text-gray-300 mr-3;
+
+  a {
+    @apply hover:no-underline;
+  }
+}
+
+.component.navigation.navigation-fat .level1 {
+  @apply mr-5 text-xl;
+
+  a {
+    @apply hover:no-underline;
+  }
+}
+
+.component.navigation.navigation-fat .level2 {
+  @apply mr-5 text-base list-disc list-outside ml-4;
+
+  a {
+    @apply hover:no-underline;
+  }
 }

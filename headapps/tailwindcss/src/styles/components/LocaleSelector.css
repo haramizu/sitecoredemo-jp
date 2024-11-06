@@ -1,7 +1,0 @@
-.component.localeselector {
-  @apply mt-4 bg-customBlue;
-}
-
-.component.localeselector select {
-  @apply bg-customBlue text-white;
-}
