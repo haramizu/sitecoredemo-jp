@@ -14,10 +14,6 @@
   }
 }
 
-.component.navigation.navigation-fat {
-  @apply text-white;
-}
-
 .component.navigation.navigation-fat .level1 {
   @apply mr-5 text-xl;
 
