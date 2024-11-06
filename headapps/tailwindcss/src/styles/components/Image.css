@@ -3,7 +3,7 @@
 }
 
 .component.hero-banner {
-  @apply bg-gray-100 h-64 md:h-96;
+  @apply h-64 md:h-96;
 }
 
 .component.hero-banner .sc-sxa-image-hero-banner {
