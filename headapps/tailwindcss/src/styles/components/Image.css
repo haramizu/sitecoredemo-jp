@@ -1,3 +1,15 @@
 .logo {
   @apply w-64;
 }
+
+.component.hero-banner {
+  @apply bg-gray-100 h-64 md:h-96;
+}
+
+.component.hero-banner .sc-sxa-image-hero-banner {
+  @apply bg-cover bg-center h-full w-full;
+}
+
+.component.hero-banner .sc-sxa-image-hero-banner img {
+  @apply object-cover h-full w-full;
+}
